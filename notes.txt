@@ -1,0 +1,12 @@
+HEy Ian.
+
+I just made this read me to basically type down some things i need to do, such as 
+	gathering more data-sets, and remembering stuff and any type of note.
+
+Feel free to jot down anything here.
+
+nov 7:
+1) I need to collect USA amazon sales data
+2) I need to collect net32 sales data
+3) I need to ask my co-workers questions about certain files and the relevance of the information within_
+	 some file that may hold
