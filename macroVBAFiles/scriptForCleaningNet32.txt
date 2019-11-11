@@ -1,0 +1,14 @@
+Sub deleteTotal()
+
+rowcountA = Cells(Rows.Count, "A").End(xlUp).Row
+
+For i = 1 To rowcountA
+
+    If Left(Cells(i, "A").Value, 5) = "Total" Then
+        
+        Cells(i, "A").EntireRow.Delete Shift:=xlToUp
+    
+    End If
+
+Next i
+End Sub
