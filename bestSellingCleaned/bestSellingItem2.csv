@@ -1,9 +1,9 @@
-players_name,players_price,selection2_shippingPrice,players_special1,players_special2,players_special3
-Tradent Supply,$194.50,FREE Std. Shipping,Special: 1 @ $194.50,2 @ $190.95,4 @ $189.50
-River Dental Supplies,$199.99,FREE Std. Shipping,,,
-First Dent Supply,$207.20,FREE Std. Shipping,,,
-Medical Dental Max,$210.00,FREE Std. Shipping,1 @ $210.00,Special: 2 @ $190.85,Special: 5 @ $189.99
-Dental Wholesale Direct,$269.99,FREE Std. Shipping,,,
-Hey Dental,$276.00,FREE Std. Shipping,,,
-PA Dental,$277.00,FREE Std. Shipping,,,
-DDI Supply,$390.95,FREE Std. Shipping,,,
+SKU,Rank,name,special1,shippingPrice,special2,special3,special4,special5
+,1,Tradent Supply,$194.50,FREE Std. Shipping,1 @ $194.50,2 @ $190.95,4 @ $189.50,0
+,2,River Dental Supplies,$199.99,FREE Std. Shipping,0,0,0,0
+,3,First Dent Supply,$207.20,FREE Std. Shipping,0,0,0,0
+,4,Medical Dental Max,$210.00,FREE Std. Shipping,1 @ $210.00,2 @ $190.85, 5 @ $189.99,0
+,5,Dental Wholesale Direct,$269.99,FREE Std. Shipping,0,0,0,0
+,6,Hey Dental,$276.00,FREE Std. Shipping,0,0,0,0
+,7,PA Dental,$277.00,FREE Std. Shipping,0,0,0,0
+,8,DDI Supply,$390.95,FREE Std. Shipping,0,0,0,0

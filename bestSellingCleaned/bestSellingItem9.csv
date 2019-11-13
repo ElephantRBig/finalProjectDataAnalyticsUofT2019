@@ -1,7 +1,7 @@
-bestSeller9_name,bestSeller9_special1,bestSeller9_shippingPrice,bestSeller9_special2
-First Dent Supply,$43.14,FREE Std. Shipping,3 @ $42.10
-Tradent Supply,$44.70,FREE Std. Shipping,
-Top Dent,$47.00,FREE Std. Shipping,
-Medical Dental Max,$55.00,+ $4.00 Std. Shipping,
-Dental Wholesale Direct,$59.95,FREE Std. Shipping,
-Wisdom Dental Supply,$81.99,FREE Std. Shipping,
+SKU,Rank,name,special1,shippingPrice,special2,special3,special4,special5
+,1,First Dent Supply,$43.14,FREE Std. Shipping,3 @ $42.10,0,0,0
+,2,Tradent Supply,$44.70,FREE Std. Shipping,0,0,0,0
+,3,Top Dent,$47.00,FREE Std. Shipping,0,0,0,0
+,4,Medical Dental Max,$55.00,+ $4.00 Std. Shipping,0,0,0,0
+,5,Dental Wholesale Direct,$59.95,FREE Std. Shipping,0,0,0,0
+,6,Wisdom Dental Supply,$81.99,FREE Std. Shipping,0,0,0,0

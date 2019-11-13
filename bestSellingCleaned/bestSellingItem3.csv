@@ -1,8 +1,8 @@
-vendorNames_name,vendorNames_special1,vendorNames_shippingPrice,vendorNames_special2
-Top Dent,$91.50,FREE Std. Shipping,
-Tradent Supply,$91.95,FREE Std. Shipping,3 @ $88.00
-First Dent Supply,$94.77,FREE Std. Shipping,3 @ $86.77
-Medical Dental Max,$91.99,+ $4.00 Std. Shipping,3 @ $87.99
-River Dental Supplies,$109.49,FREE Std. Shipping,
-PA Dental,$109.50,FREE Std. Shipping,
-Dental Wholesale Direct,$159.00,FREE Std. Shipping,
+SKU,Rank,name,special1,shippingPrice,special2,special3,special4,special5
+,1,Top Dent,$91.50,FREE Std. Shipping,0,0,0,0
+,2,Tradent Supply,$91.95,FREE Std. Shipping,3 @ $88.00,0,0,0
+,3,First Dent Supply,$94.77,FREE Std. Shipping,3 @ $86.77,0,0,0
+,4,Medical Dental Max,$91.99,+ $4.00 Std. Shipping,3 @ $87.99,0,0,0
+,5,River Dental Supplies,$109.49,FREE Std. Shipping,0,0,0,0
+,6,PA Dental,$109.50,FREE Std. Shipping,0,0,0,0
+,7,Dental Wholesale Direct,$159.00,FREE Std. Shipping,0,0,0,0

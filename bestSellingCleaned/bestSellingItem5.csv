@@ -1,4 +1,4 @@
-selection4_name,selection4_special1,selection4_shippingPrice
-Tradent Supply,$92.50,FREE Std. Shipping
-Dental Wholesale Direct,$96.40,FREE Std. Shipping
-DDI Supply,$117.99,FREE Std. Shipping
+SKU,Rank,name,special1,shippingPrice,special2,special3,special4,special5
+,1,Tradent Supply,$92.50,FREE Std. Shipping,0,0,0,0
+,2,Dental Wholesale Direct,$96.40,FREE Std. Shipping,0,0,0,0
+,3,DDI Supply,$117.99,FREE Std. Shipping,0,0,0,0

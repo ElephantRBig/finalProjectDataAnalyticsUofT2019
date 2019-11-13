@@ -1,8 +1,8 @@
-selection2_name,selection2_special1,selection2_shippingPrice,selection2_special2
-Tradent Supply,$195.00,FREE Std. Shipping,2 @ $193.60
-Medical Dental Max,$195.90,+ $4.00 Std. Shipping,2 @ $193.65
-First Dent Supply,$199.94,FREE Std. Shipping,
-Shine Dental,$209.50,+ $6.75 Std. Shipping,
-River Dental Supplies,$225.99,FREE Std. Shipping,
-LV Dental Supply,$244.99,FREE Std. Shipping,2 @ $225.98
-Dental Wholesale Direct,$272.99,FREE Std. Shipping,
+SKU,Rank,special3,special4,special5,special2,special3,special4,special5
+,1,Tradent Supply,$195.00,FREE Std. Shipping,2 @ $193.60,0,0,0
+,2,Medical Dental Max,$195.90,+ $4.00 Std. Shipping,2 @ $193.65,0,0,0
+,3,First Dent Supply,$199.94,FREE Std. Shipping,0,0,0,0
+,4,Shine Dental,$209.50,+ $6.75 Std. Shipping,0,0,0,0
+,5,River Dental Supplies,$225.99,FREE Std. Shipping,0,0,0,0
+,6,LV Dental Supply,$244.99,FREE Std. Shipping,2 @ $225.98,0,0,0
+,7,Dental Wholesale Direct,$272.99,FREE Std. Shipping,0,0,0,0
