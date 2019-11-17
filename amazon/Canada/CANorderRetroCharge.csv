@@ -1,0 +1,5 @@
+,date,time,type,order id,group-sku,sku,description,quantity,order city,order state,order postal,product sales,selling fees,fba fees,landing cost
+0,2019-06-19,11:26:35 PM PDT,Order_Retrocharge,701-7702270-9979421,,NAN,Base Tax,,,,,0.0,-0.0,-0.0,
+1,2019-06-19,11:26:35 PM PDT,Order_Retrocharge,701-7702270-9979421,,NAN,Shipping Tax,,,,,0.0,-0.0,-0.0,
+2,2019-06-19,11:29:43 PM PDT,Order_Retrocharge,701-7702270-9979421,,NAN,Base Tax,,,,,0.0,-0.0,-0.0,
+3,2019-06-19,11:29:43 PM PDT,Order_Retrocharge,701-7702270-9979421,,NAN,Shipping Tax,,,,,0.0,-0.0,-0.0,
