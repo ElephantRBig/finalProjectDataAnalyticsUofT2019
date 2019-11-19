@@ -1,0 +1,471 @@
+,"Type","Date","Num","Ship To Address 1","Ship To Address 2","Ship Postal Code","Item","Qty","U/M","Sales Price","Amount"
+"mobile , AL",,,,,,,,,,,
+"John Williams",,,,,,,,,,,
+,"Invoice","09/13/2019","22172","John Williams","3920 Airport Blvd","36608-1636","3MD-3525(TE)",3,"ea",107.79333,323.38
+"Total John Williams",,,,,,,,3,,,323.38
+"Total mobile , AL",,,,,,,,3,,,323.38
+"Scottsboro , AL",,,,,,,,,,,
+"Wayne Patterson",,,,,,,,,,,
+,"Invoice","10/11/2019","22239","Wayne Patterson","921 South Broad Street","35768","ACT-261005",1,"ea",80.00,80.00
+,"Invoice","10/11/2019","22239","Wayne Patterson","921 South Broad Street","35768","ACT-261030",2,"ea",124.59,249.18
+"Total Wayne Patterson",,,,,,,,3,,,329.18
+"Total Scottsboro , AL",,,,,,,,3,,,329.18
+"Sumiton , AL",,,,,,,,,,,
+"Dr. Emery Cole",,,,,,,,,,,
+,"Invoice","09/20/2019","22185","Dr. Emery Cole","44 Oak Drive","35148-0146","KOD-1273747",1,"ea",49.99,49.99
+"Total Dr. Emery Cole",,,,,,,,1,,,49.99
+"Total Sumiton , AL",,,,,,,,1,,,49.99
+"Fayetteville , AR",,,,,,,,,,,
+"Kellie Barnes",,,,,,,,,,,
+,"Invoice","10/09/2019","22232","Kellie Barnes","2646 E. Joyce Blvd Suite 1","72703","3MD-3525(TE)",1,"ea",112.02,112.02
+"Total Kellie Barnes",,,,,,,,1,,,112.02
+"Total Fayetteville , AR",,,,,,,,1,,,112.02
+"Malvern , AR",,,,,,,,,,,
+"Lisa Loftis, DDS, PA",,,,,,,,,,,
+,"Invoice","09/16/2019","22177","Lisa Loftis, DDS, PA","306 S Ash St","72104","ACT-261030",1,"ea",135.00,135.00
+,"Invoice","10/18/2019","22260","Lisa Loftis, DDS, PA","306 S Ash St",,"ACT-261005",1,"ea",89.99,89.99
+"Total Lisa Loftis, DDS, PA",,,,,,,,2,,,224.99
+"Total Malvern , AR",,,,,,,,2,,,224.99
+"Mountain Home , AR",,,,,,,,,,,
+"Bill Vostatek",,,,,,,,,,,
+,"Invoice","09/30/2019","22207","Bill Vostatek","809 Ohio Ave","72653","KER-33872",1,"ea",44.99,44.99
+"Total Bill Vostatek",,,,,,,,1,,,44.99
+"Total Mountain Home , AR",,,,,,,,1,,,44.99
+"Buckeye , AZ",,,,,,,,,,,
+"Umar Imtiaz",,,,,,,,,,,
+,"Invoice","10/08/2019","22228","Umar Imtiaz","23374 W Yuma Rd, Ste 102",,"3MD-712-036",1,"ea",92.99,92.99
+"Total Umar Imtiaz",,,,,,,,1,,,92.99
+"Total Buckeye , AZ",,,,,,,,1,,,92.99
+"gilbert , AZ",,,,,,,,,,,
+"ken strittmatter",,,,,,,,,,,
+,"Invoice","10/01/2019","22211","ken strittmatter","1136 N Quail Ln","85233-2665","BEA-FG557",1,"ea",89.99,89.99
+"Total ken strittmatter",,,,,,,,1,,,89.99
+"Total gilbert , AZ",,,,,,,,1,,,89.99
+"anaheim , CA",,,,,,,,,,,
+"Martin Writer",,,,,,,,,,,
+,"Invoice","10/07/2019","22225","Martin Writer","100 S Chaparral Ct, Ste 150",,"KER-31513(EU)",1,"ea",44.99,44.99
+"Total Martin Writer",,,,,,,,1,,,44.99
+"Total anaheim , CA",,,,,,,,1,,,44.99
+"Albany , CA",,,,,,,,,,,
+"Dr. Ramtin Nassiri",,,,,,,,,,,
+,"Invoice","10/09/2019","22230","Dr. Ramtin Nassiri","1183 Solano Ave","94706-1637","3MD-712-036",2,"ea",92.99,185.98
+"Total Dr. Ramtin Nassiri",,,,,,,,2,,,185.98
+"Total Albany , CA",,,,,,,,2,,,185.98
+"chula vista , CA",,,,,,,,,,,
+"simon lugo",,,,,,,,,,,
+,"Invoice","09/23/2019","22186","simon lugo","74 kinswood dr apt# 8","91911","3MD-712-036",1,"ea",94.99,94.99
+"Total simon lugo",,,,,,,,1,,,94.99
+"Total chula vista , CA",,,,,,,,1,,,94.99
+"elk grove , CA",,,,,,,,,,,
+"Nimrat Heir",,,,,,,,,,,
+,"Invoice","09/20/2019","22184","Nimrat Heir","2523 Neutra Way","95758","3MD-712-036",2,"ea",94.99,189.98
+"Total Nimrat Heir",,,,,,,,2,,,189.98
+"Total elk grove , CA",,,,,,,,2,,,189.98
+"fresno , CA",,,,,,,,,,,
+"CV DentalSupply",,,,,,,,,,,
+,"Invoice","09/27/2019","22202","CV DentalSupply","44 W. Herndon Ave. #102","93650","J&J-MS0005",6,"ea",20.45,122.70
+,"Invoice","09/27/2019","22202","CV DentalSupply","44 W. Herndon Ave. #102","93650","Shipping Charge",1,,13.00,13.00
+"Total CV DentalSupply",,,,,,,,7,,,135.70
+"Total fresno , CA",,,,,,,,7,,,135.70
+"hemet , CA",,,,,,,,,,,
+"DOWNTOWN DENTAL",,,,,,,,,,,
+,"Invoice","10/03/2019","22219","DOWNTOWN DENTAL","301 E. FLORIDA AVE. STE#A","92543","3MD-712-036",1,"ea",94.99,94.99
+"Total DOWNTOWN DENTAL",,,,,,,,1,,,94.99
+"Total hemet , CA",,,,,,,,1,,,94.99
+"los angeles , CA",,,,,,,,,,,
+"daniel alonso",,,,,,,,,,,
+,"Invoice","08/23/2019","22147","daniel alonso","5220 Pacific Concourse Dr,","90045-6244","J&J-MS0005",8,"ea",28.99,231.92
+,"Invoice","08/23/2019","22147","daniel alonso","5220 Pacific Concourse Dr,","90045-6244","Shipping Charge",1,,13.00,13.00
+"Total daniel alonso",,,,,,,,9,,,244.92
+"Maricruz Salazar",,,,,,,,,,,
+,"Invoice","09/23/2019","22192","Maricruz Salazar","2343 shoredale ave","90031","3MD-712-036",1,"ea",94.99,94.99
+"Total Maricruz Salazar",,,,,,,,1,,,94.99
+"Total los angeles , CA",,,,,,,,10,,,339.91
+"san francisco , CA",,,,,,,,,,,
+"chris sugimura",,,,,,,,,,,
+,"Invoice","10/09/2019","22234","chris sugimura","2001 Union St, Ste 240","94123","3MD-3525(TE)",1,"ea",99.50,99.50
+"Total chris sugimura",,,,,,,,1,,,99.50
+"Total san francisco , CA",,,,,,,,1,,,99.50
+"sanger , CA",,,,,,,,,,,
+"kelly boulom",,,,,,,,,,,
+,"Invoice","09/13/2019","22171","kelly boulom","2432 jensen ave","93657-2296","3MD-41258",1,"ea",94.99,94.99
+"Total kelly boulom",,,,,,,,1,,,94.99
+"Total sanger , CA",,,,,,,,1,,,94.99
+"Seal beach , CA",,,,,,,,,,,
+"javier mejia",,,,,,,,,,,
+,"Invoice","10/16/2019","22255","javier mejia","3591 Primrose Cir.",,"3MD-712-036",2,"ea",99.99,199.98
+"Total javier mejia",,,,,,,,2,,,199.98
+"Total Seal beach , CA",,,,,,,,2,,,199.98
+"Sherman Oaks , CA",,,,,,,,,,,
+"Ryan Haimof",,,,,,,,,,,
+,"Invoice","09/27/2019","22200","Ryan Haimof","15300 Ventura Blvd, Ste 218","91403-5831","3MD-712-036",1,"ea",94.99,94.99
+"Total Ryan Haimof",,,,,,,,1,,,94.99
+"Total Sherman Oaks , CA",,,,,,,,1,,,94.99
+"Westminster , CA",,,,,,,,,,,
+"Richard Hoang",,,,,,,,,,,
+,"Invoice","09/25/2019","22195","Richard Hoang","9200 Bolsa Ave, Ste 209","92683-5580","3MD-712-036",3,"ea",88.00,264.00
+"Total Richard Hoang",,,,,,,,3,,,264.00
+"Total Westminster , CA",,,,,,,,3,,,264.00
+"colorado Springs , CO",,,,,,,,,,,
+"Karen Brady",,,,,,,,,,,
+,"Invoice","10/10/2019","22237","Karen Brady","685 Citadel Drive East","80909","KER-31513(EU)",2,"ea",44.99,89.98
+"Total Karen Brady",,,,,,,,2,,,89.98
+"Total colorado Springs , CO",,,,,,,,2,,,89.98
+"10 Blue Dun , CT",,,,,,,,,,,
+"charles tran",,,,,,,,,,,
+,"Invoice","10/16/2019","22253","charles tran",,,"KER-31513(EU)",1,"ea",44.99,44.99
+"Total charles tran",,,,,,,,1,,,44.99
+"Total 10 Blue Dun , CT",,,,,,,,1,,,44.99
+"stamford , CT",,,,,,,,,,,
+"Julia Strait",,,,,,,,,,,
+,"Invoice","10/03/2019","22223","Julia Strait","113 East Cross Road","06907","CRA-CR3226",10,"ea",6.75,67.50
+,"Invoice","10/03/2019","22223","Julia Strait","113 East Cross Road","06907","Shipping Charge",1,,13.00,13.00
+"Total Julia Strait",,,,,,,,11,,,80.50
+"Total stamford , CT",,,,,,,,11,,,80.50
+"wilton , CT",,,,,,,,,,,
+"Julia Strait",,,,,,,,,,,
+,"Invoice","08/21/2019","22144","Wilton Dental Assoc","44 Old Ridgefield Rd","06897","CRA-CR3226",10,"ea",9.16,91.60
+,"Invoice","08/21/2019","22144","Wilton Dental Assoc","44 Old Ridgefield Rd","06897","Shipping Charge",1,,13.00,13.00
+"Total Julia Strait",,,,,,,,11,,,104.60
+"Total wilton , CT",,,,,,,,11,,,104.60
+"boynton beach , FL",,,,,,,,,,,
+"Odell Chambers",,,,,,,,,,,
+,"Invoice","09/09/2019","22165","Odell Chambers","2103 NE 2nd CT","33435-2363","ULT-6408",1,"ea",34.99,34.99
+,"Invoice","09/09/2019","22165","Odell Chambers","2103 NE 2nd CT","33435-2363","Shipping Charge",1,,13.00,13.00
+"Total Odell Chambers",,,,,,,,2,,,47.99
+"Total boynton beach , FL",,,,,,,,2,,,47.99
+"Cape coral , FL",,,,,,,,,,,
+"Nicholas J Dundee",,,,,,,,,,,
+,"Invoice","09/26/2019","22199","Nicholas J Dundee","326 Del Prado Blvd N, Ste 302","33909-2288","3MD-1954",2,"ea",32.00,64.00
+"Total Nicholas J Dundee",,,,,,,,2,,,64.00
+"Total Cape coral , FL",,,,,,,,2,,,64.00
+"Doral , FL",,,,,,,,,,,
+"silvia sabbatini",,,,,,,,,,,
+,"Invoice","08/26/2019","22148","Alberto López ( dr Pedro Ive)","8115 NW 33rd St","33122-1005","3MD-56877",2,"ea",84.99,169.98
+"Total silvia sabbatini",,,,,,,,2,,,169.98
+"ALDO ARTILES BM-109766",,,,,,,,,,,
+,"Invoice","10/09/2019","22233","ALDO ARTILES BM-109766","8400 NW 25th St, SUITE 100","33198-1534","3MD-712-036",1,"ea",92.99,92.99
+"Total ALDO ARTILES BM-109766",,,,,,,,1,,,92.99
+"Total Doral , FL",,,,,,,,3,,,262.97
+"Fort Lauderdale , FL",,,,,,,,,,,
+"Nadja Horst",,,,,,,,,,,
+,"Invoice","10/08/2019","22227","Nadja Horst","401 Coconut Isle Dr",,"SDI-7700218",2,"ea",138.08,276.16
+"Total Nadja Horst",,,,,,,,2,,,276.16
+"Total Fort Lauderdale , FL",,,,,,,,2,,,276.16
+"miami , FL",,,,,,,,,,,
+"Matthew Segal",,,,,,,,,,,
+,"Invoice","10/17/2019","22259","matthew segal","20458 W Dixie Hwy","33180-1128","3MD-31642(E)",2,"ea",198.54,397.08
+"Total Matthew Segal",,,,,,,,2,,,397.08
+"Jaime Baez",,,,,,,,,,,
+,"Invoice","09/23/2019","22187","Jaime Baez","8273 NW 56 ST PSS-01296","33195","3MD-712-036",1,"ea",94.99,94.99
+"Total Jaime Baez",,,,,,,,1,,,94.99
+"Sandra Silva",,,,,,,,,,,
+,"Invoice","10/02/2019","22217","Sandra Silva","10661 N Kendall Dr Ste 105","33176-1593","KER-33872",2,"ea",44.99,89.98
+"Total Sandra Silva",,,,,,,,2,,,89.98
+"Total miami , FL",,,,,,,,5,,,582.05
+"Palmetto bay , FL",,,,,,,,,,,
+"Gisleda Ramos",,,,,,,,,,,
+,"Invoice","09/12/2019","22170","Gisleda Ramos","5856 Paradise Point Dr","33157-2646","3MD-712-036",2,"ea",92.50,185.00
+,"Invoice","09/12/2019","22170","Gisleda Ramos","5856 Paradise Point Dr","33157-2646","Shipping Charge",1,,35.81,35.81
+,"Invoice","09/23/2019","22189","Gisleda Ramos","5856 Paradise Point Dr","33157-2646","3MD-712-036",4,"ea",94.99,379.96
+"Total Gisleda Ramos",,,,,,,,7,,,600.77
+"Total Palmetto bay , FL",,,,,,,,7,,,600.77
+"sarasota , FL",,,,,,,,,,,
+"Ricardo Cuervo",,,,,,,,,,,
+,"Invoice","10/16/2019","22254","Ricardo Guzman","5198 Cedar Hammock Ln",,"SDI-7700218",1,"ea",138.00,138.00
+"Total Ricardo Cuervo",,,,,,,,1,,,138.00
+"Total sarasota , FL",,,,,,,,1,,,138.00
+"Spring Hill , FL",,,,,,,,,,,
+"George Medler",,,,,,,,,,,
+,"Invoice","10/15/2019","22246","George Medler","10448 Northcliffe Blvd","34608-3609","ACT-261030",1,"ea",129.99,129.99
+"Total George Medler",,,,,,,,1,,,129.99
+"Total Spring Hill , FL",,,,,,,,1,,,129.99
+"wellington , FL",,,,,,,,,,,
+"Arnaldo  Peña",,,,,,,,,,,
+,"Invoice","09/23/2019","22188","Arnaldo  Peña","14526 Paddock Dr","33414-7820","3MD-712-036",1,"ea",94.99,94.99
+"Total Arnaldo  Peña",,,,,,,,1,,,94.99
+"Total wellington , FL",,,,,,,,1,,,94.99
+"Weeki Wachee , FL",,,,,,,,,,,
+"POLLY MICHAELS",,,,,,,,,,,
+,"Invoice","09/06/2019","22163","MIchaels Center For Dental Excellence","10280 Yale Ave","34613-8375","3MD-46956",3,"ea",79.99,239.97
+,"Invoice","09/06/2019","22163","MIchaels Center For Dental Excellence","10280 Yale Ave","34613-8375","Shipping Charge",1,,13.00,13.00
+"Total POLLY MICHAELS",,,,,,,,4,,,252.97
+"Total Weeki Wachee , FL",,,,,,,,4,,,252.97
+"lisle , IL",,,,,,,,,,,
+"Suzy Azalea",,,,,,,,,,,
+,"Invoice","09/26/2019","22196","suzy azalea","1500 Eisenhower Ln, Ste 400","60532-2132","KER-33872",5,"ea",44.99,224.95
+,"Invoice","09/26/2019","22197","suzy azalea","1500 Eisenhower Ln, Ste 400","60532-2132","KER-33872",1,"ea",44.99,44.99
+"Total Suzy Azalea",,,,,,,,6,,,269.94
+"Total lisle , IL",,,,,,,,6,,,269.94
+"Lake Barrington , IL",,,,,,,,,,,
+"Sandhya Pallam",,,,,,,,,,,
+,"Invoice","10/10/2019","22235","Sandhya Pallam","23800 N Hillfarm Ct","60010","3MD-3525(TE)",1,"ea",99.50,99.50
+"Total Sandhya Pallam",,,,,,,,1,,,99.50
+"Total Lake Barrington , IL",,,,,,,,1,,,99.50
+"Lenexa , KS",,,,,,,,,,,
+"Kelly Bridenstine",,,,,,,,,,,
+,"Invoice","10/16/2019","22252","Kelly Bridenstine","8650 Candlelight Ln, Ste 1",,"ACT-261005",1,"ea",90.00,90.00
+"Total Kelly Bridenstine",,,,,,,,1,,,90.00
+"Total Lenexa , KS",,,,,,,,1,,,90.00
+"lexington , KY",,,,,,,,,,,
+"Larry Kopczyk",,,,,,,,,,,
+,"Invoice","09/27/2019","22203","Larry Kopczyk","2335 Sterlington Rd, Ste 200","40517-3937","ACT-261030",1,"ea",129.99,129.99
+"Total Larry Kopczyk",,,,,,,,1,,,129.99
+"Total lexington , KY",,,,,,,,1,,,129.99
+"arlington , MA",,,,,,,,,,,
+"Dr. Andrew Schwartz-Hinds",,,,,,,,,,,
+,"Invoice","09/17/2019","22182","Dr. Andrew Schwartz-Hinds","65 Egerton","02474","ACT-F00245",2,"ea",59.99,119.98
+"Total Dr. Andrew Schwartz-Hinds",,,,,,,,2,,,119.98
+"Total arlington , MA",,,,,,,,2,,,119.98
+"Northampton , MA",,,,,,,,,,,
+"Emily Withenbury",,,,,,,,,,,
+,"Invoice","09/26/2019","22198","Emily Withenbury","1 Amber Ln","01060-3034","CRA-CR3226",1,"ea",6.75,6.75
+"Total Emily Withenbury",,,,,,,,1,,,6.75
+"Total Northampton , MA",,,,,,,,1,,,6.75
+"Sharon , MA",,,,,,,,,,,
+"shabtai sapir",,,,,,,,,,,
+,"Invoice","10/17/2019","22257","shabtai sapir","48 High St","02067-1420","3MD-3525(E)",1,"ea",115.00,115.00
+,"Invoice","10/17/2019","22257","shabtai sapir","48 High St","02067-1420","SUL-21115",1,"ea",119.99,119.99
+"Total shabtai sapir",,,,,,,,2,,,234.99
+"Total Sharon , MA",,,,,,,,2,,,234.99
+"Sudbury , MA",,,,,,,,,,,
+"Paul Kang",,,,,,,,,,,
+,"Invoice","09/19/2019","22183","Paul Kang","111 Boston Post Rd",,"SIR-6176536",2,"ea",57.99,115.98
+"Total Paul Kang",,,,,,,,2,,,115.98
+"Total Sudbury , MA",,,,,,,,2,,,115.98
+"baltimore , MD",,,,,,,,,,,
+"Ni Jay",,,,,,,,,,,
+,"Invoice","09/16/2019","22174","Ni Jay","5418 jamestowne court","21229","3MD-712-036",1,"ea",92.50,92.50
+"Total Ni Jay",,,,,,,,1,,,92.50
+"Total baltimore , MD",,,,,,,,1,,,92.50
+"Fort Washington , MD",,,,,,,,,,,
+"Zishan A Michael",,,,,,,,,,,
+,"Invoice","10/14/2019","22243","erica michael Michael Family Dental","9400 Livingston Rd","20744-4900","SIR-6176510",1,"ea",55.00,55.00
+"Total Zishan A Michael",,,,,,,,1,,,55.00
+"Total Fort Washington , MD",,,,,,,,1,,,55.00
+"gaithersburg , MD",,,,,,,,,,,
+"JENNIFER BEITLER",,,,,,,,,,,
+,"Invoice","10/03/2019","22220","JENNIFER BEITLER","16081 Comprint Cir","20877-1321","3MD-31642(E)",1,"ea",210.00,210.00
+"Total JENNIFER BEITLER",,,,,,,,1,,,210.00
+"Total gaithersburg , MD",,,,,,,,1,,,210.00
+"rockville , MD",,,,,,,,,,,
+"Joseph Park",,,,,,,,,,,
+,"Invoice","10/18/2019","22262","Joseph Park","10228 Sweetwood Ave","20850-5453","3MD-3525(E)",1,"ea",115.00,115.00
+"Total Joseph Park",,,,,,,,1,,,115.00
+"Total rockville , MD",,,,,,,,1,,,115.00
+"salisbury , MD",,,,,,,,,,,
+"Richard McCann",,,,,,,,,,,
+,"Invoice","10/03/2019","22222","Richard McCann","31413 Winterplace Pkwy","21804-1877","SIR-6176536",2,"ea",57.99,115.98
+,"Invoice","10/15/2019","22248","Richard McCann","31413 Winterplace Pkwy, Ste 101","21804-1877","3MD-3525(TE)",1,"ea",115.00,115.00
+"Total Richard McCann",,,,,,,,3,,,230.98
+"Total salisbury , MD",,,,,,,,3,,,230.98
+"Farmington Hills , MI",,,,,,,,,,,
+"Vishnu Burla",,,,,,,,,,,
+,"Invoice","09/03/2019","22158","Vishnu Burla","34672 Pickford Dr","48335","ACT-F00246",3,"ea",79.99,239.97
+,"Invoice","09/03/2019","22158","Vishnu Burla","34672 Pickford Dr","48335","Shipping Charge",1,,12.72,12.72
+"Total Vishnu Burla",,,,,,,,4,,,252.69
+"Total Farmington Hills , MI",,,,,,,,4,,,252.69
+"West Bloomfield , MI",,,,,,,,,,,
+"Ahmed Allam",,,,,,,,,,,
+,"Invoice","09/30/2019","22206","Ahmed   Allam","5045 Champlain Cir","48323-3530","SDI-7700218",1,"ea",128.21,128.21
+"Total Ahmed Allam",,,,,,,,1,,,128.21
+"Total West Bloomfield , MI",,,,,,,,1,,,128.21
+"High Point , NC",,,,,,,,,,,
+"David J Novak",,,,,,,,,,,
+,"Invoice","08/20/2019","22143","David Novak","3781 Samet Dr","27265-3502","ACT-261005",3,"ea",95.00,285.00
+"Total David J Novak",,,,,,,,3,,,285.00
+"Total High Point , NC",,,,,,,,3,,,285.00
+"Lincoln , NE",,,,,,,,,,,
+"Wes Parks",,,,,,,,,,,
+,"Invoice","09/13/2019","22173","Wes Parks","5441 Glade St","68506-2121","KER-28415",1,"ea",35.00,35.00
+"Total Wes Parks",,,,,,,,1,,,35.00
+"Total Lincoln , NE",,,,,,,,1,,,35.00
+"Dover , NJ",,,,,,,,,,,
+"Jason Lee",,,,,,,,,,,
+,"Invoice","10/01/2019","22210","Jason Lee","4 Marvin St","07801-3735","3MD-712-036",1,"ea",94.99,94.99
+"Total Jason Lee",,,,,,,,1,,,94.99
+"Total Dover , NJ",,,,,,,,1,,,94.99
+"East Hanover , NJ",,,,,,,,,,,
+"Dmitry Denisyuk",,,,,,,,,,,
+,"Invoice","09/30/2019","22205","Unitrade Group Inc","6 Merry Ln","07936-3902","3MD-712-036",5,"ea",94.99,474.95
+,"Invoice","10/14/2019","22241","Unitrade Group Inc","6 Merry Ln","07936-3902","3MD-712-036",20,"ea",90.00,1800.00
+"Total Dmitry Denisyuk",,,,,,,,25,,,2274.95
+"Total East Hanover , NJ",,,,,,,,25,,,2274.95
+"Franklin Lks , NJ",,,,,,,,,,,
+"Richard Piro",,,,,,,,,,,
+,"Invoice","09/16/2019","22175","richard piro","714 Somerset St","07417-1027","ACT-261030",1,"ea",135.00,135.00
+"Total Richard Piro",,,,,,,,1,,,135.00
+"Total Franklin Lks , NJ",,,,,,,,1,,,135.00
+"rockaway , NJ",,,,,,,,,,,
+"adam helfand",,,,,,,,,,,
+,"Invoice","09/12/2019","22169","adam helfand","343 Mount Hope Ave","07866-1646","3MD-41258",1,"ea",94.99,94.99
+"Total adam helfand",,,,,,,,1,,,94.99
+"Total rockaway , NJ",,,,,,,,1,,,94.99
+"toms river , NJ",,,,,,,,,,,
+"warren merguerian",,,,,,,,,,,
+,"Invoice","10/02/2019","22212","Warren Merguerian","557 Fischer Blvd","08753-6274","KOD-1273747",4,"ea",39.99,159.96
+"Total warren merguerian",,,,,,,,4,,,159.96
+"Total toms river , NJ",,,,,,,,4,,,159.96
+"albuquerque , NM",,,,,,,,,,,
+"Dr. Cain",,,,,,,,,,,
+,"Invoice","09/23/2019","22190","Dr. Cain","3001 Isleta Blvd SW","87105-5818","EDS-135-0",1,"ea",125.00,125.00
+"Total Dr. Cain",,,,,,,,1,,,125.00
+"Total albuquerque , NM",,,,,,,,1,,,125.00
+"las vegas , NV",,,,,,,,,,,
+"rene fernando",,,,,,,,,,,
+,"Invoice","10/09/2019","22231","rene fernando","7965 S Rainbow Blvd # 145","89139-6540","3MD-3525(TE)",1,"ea",99.50,99.50
+"Total rene fernando",,,,,,,,1,,,99.50
+"Portia Ijidakinro",,,,,,,,,,,
+,"Invoice","10/17/2019","22258","Portia Ijidakinro","10800 Armitage Ave","89144","3MD-712-036",1,"ea",99.99,99.99
+"Total Portia Ijidakinro",,,,,,,,1,,,99.99
+"Dana Owens",,,,,,,,,,,
+,"Invoice","09/17/2019","22181","Dana Owens","2900 E Desert Inn Rd","89121","SIR-6176528",1,"ea",49.99,49.99
+,"Invoice","09/17/2019","22181","Dana Owens","2900 E Desert Inn Rd","89121","SIR-6176510",1,"ea",49.99,49.99
+"Total Dana Owens",,,,,,,,2,,,99.98
+"Total las vegas , NV",,,,,,,,4,,,299.47
+"Holley , NY",,,,,,,,,,,
+"Daniel Schiavone",,,,,,,,,,,
+,"Invoice","10/15/2019","22249","Daniel Schiavone","69 Public Sq","14470-1139","DEN-80395",2,"ea",129.00,258.00
+"Total Daniel Schiavone",,,,,,,,2,,,258.00
+"Total Holley , NY",,,,,,,,2,,,258.00
+"Huntington , NY",,,,,,,,,,,
+"Matthew Eannaccone",,,,,,,,,,,
+,"Invoice","09/27/2019","22204","Matthew Eannaccone","215 Oakwood Rd","11743-4253","3MD-71522",2,"ea",87.99,175.98
+"Total Matthew Eannaccone",,,,,,,,2,,,175.98
+"Total Huntington , NY",,,,,,,,2,,,175.98
+"jamaica , NY",,,,,,,,,,,
+"ronny ambalu",,,,,,,,,,,
+,"Invoice","10/10/2019","22236","ronny ambalu","18006 80th dr","11432-1532","3MD-3525(TE)",1,"ea",97.00,97.00
+"Total ronny ambalu",,,,,,,,1,,,97.00
+"Total jamaica , NY",,,,,,,,1,,,97.00
+"Malta , NY",,,,,,,,,,,
+"Laurie DeLucia Fearman",,,,,,,,,,,
+,"Invoice","10/07/2019","22226","Laurie DeLucia Fearman","7 Arnold Road",,"KER-31513(EU)",2,"ea",44.99,89.98
+,"Invoice","10/28/2019","22268","Laurie DeLucia Fearman","7 Arnold Road",,"KER-35129",2,"ea",0.00,0.00
+"Total Laurie DeLucia Fearman",,,,,,,,4,,,89.98
+"Total Malta , NY",,,,,,,,4,,,89.98
+"Smithtown , NY",,,,,,,,,,,
+"Michael Kampourakis",,,,,,,,,,,
+,"Invoice","10/02/2019","22214","Michael Kampourakis","886 W Jericho Tpke","11787-3206","EDS-130-01",1,"ea",118.00,118.00
+,"Invoice","10/02/2019","22214","Michael Kampourakis","886 W Jericho Tpke","11787-3206","EDS-130-0",1,"ea",118.00,118.00
+"Total Michael Kampourakis",,,,,,,,2,,,236.00
+"Total Smithtown , NY",,,,,,,,2,,,236.00
+"Springfield Gardens , NY",,,,,,,,,,,
+"Samy ABDUL JAWAD",,,,,,,,,,,
+,"Invoice","10/09/2019","22229","Samy ABDUL JAWAD","18221 150th Ave","11413-4010","3MD-41258(E)",10,"ea",39.86,398.60
+"Total Samy ABDUL JAWAD",,,,,,,,10,,,398.60
+"Total Springfield Gardens , NY",,,,,,,,10,,,398.60
+"White Plains , NY",,,,,,,,,,,
+"Dr. Todd J. Amus",,,,,,,,,,,
+,"Invoice","10/02/2019","22218","Dr. Todd J. Amus","280 Dobbs Ferry Rd","10607-1912","KER-31513(EU)",2,"ea",44.99,89.98
+"Total Dr. Todd J. Amus",,,,,,,,2,,,89.98
+"Total White Plains , NY",,,,,,,,2,,,89.98
+"New Castle , PA",,,,,,,,,,,
+"Jeanine",,,,,,,,,,,
+,"Invoice","08/15/2019","22135","Jeanine Zeigler","2031 Timber Ln","16105-5945","3MD-46957",1,"ea",89.99,89.99
+,"Invoice","08/15/2019","22135","Jeanine Zeigler","2031 Timber Ln","16105-5945","Shipping Charge",1,,13.00,13.00
+"Total Jeanine",,,,,,,,2,,,102.99
+"Total New Castle , PA",,,,,,,,2,,,102.99
+"philadelphia , PA",,,,,,,,,,,
+"Irina Stepansky",,,,,,,,,,,
+,"Invoice","10/11/2019","22240","Irina Stepansky","11911 busteton ave","19116","KER-31513(EU)",2,"ea",44.99,89.98
+"Total Irina Stepansky",,,,,,,,2,,,89.98
+"Total philadelphia , PA",,,,,,,,2,,,89.98
+"Phoenixville , PA",,,,,,,,,,,
+"Marty Gotsch",,,,,,,,,,,
+,"Invoice","10/11/2019","22238","Marty Gotsch","108 Oakland Ave","19460","DER-31515",1,"cs",120.00,120.00
+,"Invoice","10/11/2019","22238","Marty Gotsch","108 Oakland Ave","19460","Shipping Charge",1,,7.00,7.00
+"Total Marty Gotsch",,,,,,,,2,,,127.00
+"Total Phoenixville , PA",,,,,,,,2,,,127.00
+"Rogersville , TN",,,,,,,,,,,
+"Lisa Twark",,,,,,,,,,,
+,"Invoice","09/27/2019","22201","Lisa Twark","318 Far Side Dr","37857-2224","ACT-F00245",1,"ea",59.99,59.99
+"Total Lisa Twark",,,,,,,,1,,,59.99
+"Total Rogersville , TN",,,,,,,,1,,,59.99
+"Santa Fe , TN",,,,,,,,,,,
+"Jason Anglin",,,,,,,,,,,
+,"Invoice","10/01/2019","22208","Jason Anglin","2648 Owens Dr","38482-3377","MDL-NON80328",2,"ea",7.91,15.82
+,"Invoice","10/01/2019","22208","Jason Anglin","2648 Owens Dr","38482-3377","Shipping Charge",1,,13.00,13.00
+"Total Jason Anglin",,,,,,,,3,,,28.82
+"Total Santa Fe , TN",,,,,,,,3,,,28.82
+"baytown , TX",,,,,,,,,,,
+"jue sea",,,,,,,,,,,
+,"Invoice","10/01/2019","22209","jue  sea","1410 Cedar Bayou Rd","77520-2932","KER-33872",1,"ea",44.99,44.99
+"Total jue sea",,,,,,,,1,,,44.99
+"Total baytown , TX",,,,,,,,1,,,44.99
+"cuero , TX",,,,,,,,,,,
+"kerwin kahlich",,,,,,,,,,,
+,"Invoice","10/02/2019","22215","kerwin kahlich","301 Oak Ln","77954-2218","SUL-21115",1,"ea",119.99,119.99
+"Total kerwin kahlich",,,,,,,,1,,,119.99
+"Total cuero , TX",,,,,,,,1,,,119.99
+"dallas , TX",,,,,,,,,,,
+"Keith Taylor",,,,,,,,,,,
+,"Invoice","09/16/2019","22176","Keith Taylor","1441 N Cockrell Hl Rd","75211-1303","3MD-712-036",1,"ea",92.50,92.50
+"Total Keith Taylor",,,,,,,,1,,,92.50
+"Total dallas , TX",,,,,,,,1,,,92.50
+"Fredericksburg , TX",,,,,,,,,,,
+"Dennis J. Tatsch",,,,,,,,,,,
+,"Invoice","08/19/2019","22136","Dennis J Tatsch","506 Rocky Creek Rd","78624-6212","ACT-F00254",1,"ea",85.00,85.00
+,"Invoice","08/19/2019","22136","Dennis J Tatsch","506 Rocky Creek Rd","78624-6212","ACT-F00246",1,"ea",79.99,79.99
+,"Invoice","08/19/2019","22136","Dennis J Tatsch","506 Rocky Creek Rd","78624-6212","ACT-F00245",1,"ea",85.00,85.00
+,"Invoice","08/19/2019","22136","Dennis J Tatsch","506 Rocky Creek Rd","78624-6212","Shipping Charge",1,,39.00,39.00
+"Total Dennis J. Tatsch",,,,,,,,4,,,288.99
+"Total Fredericksburg , TX",,,,,,,,4,,,288.99
+"Ft worth , TX",,,,,,,,,,,
+"ROHIT NARAYAN",,,,,,,,,,,
+,"Invoice","10/02/2019","22213","ROhit NARAYAN","5113 cedar brush dr","76123-2962","SUL-21115",1,"ea",119.99,119.99
+"Total ROHIT NARAYAN",,,,,,,,1,,,119.99
+"Total Ft worth , TX",,,,,,,,1,,,119.99
+"houston , TX",,,,,,,,,,,
+"PedroAntonio Linares",,,,,,,,,,,
+,"Invoice","08/26/2019","22149","Rene Panameño Pedro Linares","6002 Dashwood Dr, Ste ""A",,"3MD-56877",1,"ea",84.99,84.99
+"Total PedroAntonio Linares",,,,,,,,1,,,84.99
+"Total houston , TX",,,,,,,,1,,,84.99
+"katy , TX",,,,,,,,,,,
+"Christopher white",,,,,,,,,,,
+,"Invoice","10/15/2019","22250","Christopher White","4211 HAZEPOINT DR","77494","3MD-712-036",1,"ea",94.50,94.50
+"Total Christopher white",,,,,,,,1,,,94.50
+"Total katy , TX",,,,,,,,1,,,94.50
+"Mission , TX",,,,,,,,,,,
+"Sunshine Family Dentistry",,,,,,,,,,,
+,"Invoice","10/03/2019","22221","Sunshine Family Dentistry","2605 W Mile 5 Rd Ste E1","78574-0981","J&J-MS0005",1,"ea",20.45,20.45
+,"Invoice","10/03/2019","22221","Sunshine Family Dentistry","2605 W Mile 5 Rd Ste E1","78574-0981","Shipping Charge",1,,13.00,13.00
+"Total Sunshine Family Dentistry",,,,,,,,2,,,33.45
+"Total Mission , TX",,,,,,,,2,,,33.45
+"Palestine , TX",,,,,,,,,,,
+"mona agarwal",,,,,,,,,,,
+,"Invoice","10/17/2019","22256","Raghav Puri Palestine Dental Care","2014 Crockett Rd B","75801","3MD-3525(TE)",1,"ea",115.00,115.00
+"Total mona agarwal",,,,,,,,1,,,115.00
+"Total Palestine , TX",,,,,,,,1,,,115.00
+"Wharton , TX",,,,,,,,,,,
+"Richard Boehm",,,,,,,,,,,
+,"Invoice","09/24/2019","22194","Richard Boehm","808 N Fulton St","77488-3946","SIR-6176536",2,"ea",57.99,115.98
+"Total Richard Boehm",,,,,,,,2,,,115.98
+"Total Wharton , TX",,,,,,,,2,,,115.98
+"Herriman , UT",,,,,,,,,,,
+"Daren Cole",,,,,,,,,,,
+,"Invoice","10/14/2019","22242","Daren C Cole","6371 W Light Hill Cir","84096-6405","DEN-80395",3,"ea",132.99,398.97
+"Total Daren Cole",,,,,,,,3,,,398.97
+"Total Herriman , UT",,,,,,,,3,,,398.97
+"SLC , UT",,,,,,,,,,,
+"hana isabela",,,,,,,,,,,
+,"Invoice","10/15/2019","22245","ron cohn","4760 S Highland Dr # 315","84117-5149","BEA-FG330",1,"ea",89.99,89.99
+"Total hana isabela",,,,,,,,1,,,89.99
+"Total SLC , UT",,,,,,,,1,,,89.99
+"herndon , VA",,,,,,,,,,,
+"Winfred Hudgins",,,,,,,,,,,
+,"Invoice","10/02/2019","22216","Winfred Hudgins","150 Elden St","20170-4856","KER-33872",1,"ea",44.99,44.99
+"Total Winfred Hudgins",,,,,,,,1,,,44.99
+"Total herndon , VA",,,,,,,,1,,,44.99
+"seattle , WA",,,,,,,,,,,
+"Dr. Quaidoo",,,,,,,,,,,
+,"Invoice","09/23/2019","22191","Dr. Quaidoo","509 Olive Way","98101-1724","CWH-H01415",1,"ea",13.75,13.75
+,"Invoice","09/23/2019","22191","Dr. Quaidoo","509 Olive Way","98101-1724","Shipping Charge",1,,13.00,13.00
+"Total Dr. Quaidoo",,,,,,,,2,,,26.75
+"Total seattle , WA",,,,,,,,2,,,26.75
+"Kendall , WI",,,,,,,,,,,
+"Jonathan Zingler",,,,,,,,,,,
+,"Invoice","09/17/2019","22180","Jonathan Zingler","24403 Lyndale RD","54638-8642","KRO-KRM302",2,"ea",7.50,15.00
+"Total Jonathan Zingler",,,,,,,,2,,,15.00
+"Total Kendall , WI",,,,,,,,2,,,15.00
+"TOTAL",,,,,,,,224,,,14973.76
