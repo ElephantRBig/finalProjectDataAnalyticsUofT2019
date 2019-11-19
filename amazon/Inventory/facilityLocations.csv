@@ -1,0 +1,222 @@
+﻿State,Location,Code
+Alabama,Bessemer ,BSM1
+Alabama,Mobile ,MOB1
+Alabama,Theodore ,MOB5
+Arizona,Phoenix ,PHX3
+Arizona,Phoenix ,PHX6
+Arizona,Phoenix ,PHX7
+Arizona,Phoenix ,PHX8
+Arizona,Phoenix ,TUS1
+Arizona,Goodyear ,PHX5
+Arizona,Tolleson ,PHX9
+California,Carlsbad ,DSD2
+California,Eastvale ,SNA6
+California,Eastvale ,SNA9
+California,Eastvale ,LGB3
+California,Fresno ,FAT1
+California,Fontana ,LAX9
+California,Irvine ,DLA9
+California,Moreno Valley,ONT6
+California,Moreno Valley,ONT8
+California,National City ,DSD3
+California,Newark ,OAK5
+California,Patterson ,OAK3
+California,"Redding, California ",AMZ2
+California,Redlands ,ONT9
+California,Redlands ,LGB4
+California,Rialto ,SNA4
+California,Rialto ,LGB8
+California,Riverside ,LGB6
+California,Sacramento ,SMF1
+California,San Bernardino ,ONT2
+California,San Bernardino ,ONT5
+California,San Bernardino ,SNA7
+California,San Bernardino ,SNA8
+California,San Diego ,DSD1
+California,Stockton ,SMF3
+California,Stockton ,SCK1
+California,Tracy ,OAK4
+California,Tracy ,SJC7
+California,Tracy ,OAK6
+California,Vacaville ,SMF5
+Colorado,Aurora ,DEN2
+Colorado,Aurora ,DEN5
+Colorado,Thornton ,DEN3
+Connecticut,Wallingford ,BDL5
+Connecticut,Windsor ,BDL2
+Connecticut,North Haven ,BDL3
+Delaware,New Castle ,PHL1
+Delaware,Middletown,PHL7
+Delaware,Middletown,PHL9
+Florida,Orlando ,MCO1
+Florida,Davenport ,MCO5
+Florida,Opa-Locka ,MIA1
+Florida,Miami ,MIA5
+Florida,Sunrise,DMI4
+Florida,Ruskin ,TPA1
+Florida,Lakeland ,TPA2
+Florida,Jacksonville ,JAX2
+Florida,Jacksonville ,JAX3
+Florida,Jacksonville ,JAX5
+Georgia,Braselton,MGE1
+Georgia,Jefferson,MGE3
+Georgia,East Point ,ATL6
+Georgia,Lithia Springs,ATL8
+Georgia,Union City ,ATL7
+Illinois,Joliet,MDW2
+Illinois,Joliet,MDW4
+Illinois,Romeoville ,MDW6
+Illinois,Edwardsville ,STL4
+Illinois,Edwardsville ,STL6
+Illinois,Edwardsville ,STL7
+Illinois,Monee ,MDW7
+Illinois,Waukegan ,MDW8
+Illinois,Aurora ,MDW9
+Illinois,Crest Hill ,MDW5
+Indiana,Whitestown ,IND1
+Indiana,Whitestown ,XUSE
+Indiana,Plainfield ,IND2
+Indiana,Plainfield ,IND5
+Indiana,Indianapolis,IND4
+Indiana,Indianapolis,IND8
+Indiana,Jeffersonville ,SDF8
+Indiana,Greenwood ,IND9
+Kansas,Kansas City ,MKC6
+Kansas,Lenexa,MCI5
+Kansas,Edgerton ,MKC4
+Kentucky,Campbellsville ,SDF1
+Kentucky,Louisville ,SDF2
+Kentucky,Shepherdsville,SDF4
+Kentucky,Shepherdsville,SDF6
+Kentucky,Shepherdsville,SDF9
+Kentucky,Hebron ,CVG1
+Kentucky,Hebron ,CVG2
+Kentucky,Hebron ,CVG3
+Kentucky,Hebron ,CVG5
+Kentucky,Hebron ,CVG7
+Kentucky,Hebron ,CVG9
+Kentucky,Lexington ,LEX1
+Kentucky,Lexington ,LEX2
+Maryland,Baltimore,BWI2
+Maryland,Baltimore,BWI5
+Maryland,North East ,MDT2
+Maryland,Sparrows Point ,DCA1
+Massachusetts,Everett ,BOS6
+Massachusetts,Fall River ,BOS7
+Massachusetts,Stoughton ,BOS5
+Michigan,Livonia ,DET1
+Michigan,Romulus ,DTW1
+Michigan,Brownstown Township ,DTW5
+Michigan,Shelby Charter Township ,DET2
+Minnesota,Shakopee ,MSP1
+Minnesota,Shakopee ,MSP5
+Minnesota,Brooklyn Park,MSP9
+Missouri,Hazelwood ,STL5
+Missouri,St. Peters ,STL8
+Nevada,North Las Vegas ,LAS2
+Nevada,North Las Vegas ,LAS5
+Nevada,North Las Vegas ,LAS6
+Nevada,North Las Vegas ,LAS7
+Nevada,Reno ,RNO4
+New Hampshire,Nashua ,BOS1
+New Jersey,Florence ,ABE8
+New Jersey,Swedesboro,ACY5
+New Jersey,Robbinsville,EWR4
+New Jersey,Avenel ,EWR5
+New Jersey,Avenel ,EWR6
+New Jersey,Avenel ,EWR7
+New Jersey,Carteret ,EWR9
+New Jersey,Carteret ,LGA7
+New Jersey,Carteret ,LGA8
+New Jersey,Teterboro ,EWR8
+New Jersey,Elizabeth ,DEW2
+New Jersey,Moonachie ,DEW1
+New Jersey,West Deptford ,ACY1
+New Jersey,Cranbury ,TEB6
+New Jersey,Logan ,TEB3
+New Jersey,Edison ,LGA9
+New Jersey,Burlington ,ACY2
+New York,Lancaster ,BUF5
+New York,Staten Island ,JFK8
+North Carolina,Charlotte ,CLT2
+North Carolina,Concord ,CLT5
+North Carolina,Durham ,RDU5
+North Carolina,Kannapolis ,CLT3
+Ohio,Columbus ,CMH1
+Ohio,Columbus ,CMH2
+Oklahoma,Oklahoma City ,OKC5
+Oklahoma,Oklahoma City ,DOK1
+Oklahoma,Oklahoma City ,OKC9
+Oklahoma,Oklahoma City ,OKC1
+Oklahoma,Tulsa ,DOK2
+Oregon,Hillsboro ,PDX5
+Oregon,Troutdale ,PDX9
+Oregon,Portland ,PDX6
+Oregon,Salem ,PDX7
+Pennsylvania,Breinigsville,ABE2
+Pennsylvania,Breinigsville,ABE3
+Pennsylvania,Easton ,ABE4
+Pennsylvania,Harrisburg ,ABE5
+Pennsylvania,Hazleton ,AVP1
+Pennsylvania,Gouldsboro ,AVP2/3
+Pennsylvania,Carlisle ,MDT1
+Pennsylvania,Carlisle ,PHL4
+Pennsylvania,Carlisle ,PHL6
+Pennsylvania,Carlisle ,PHL9
+Pennsylvania,Carlisle ,XUSC
+Pennsylvania,Lewisberry ,PHL5
+Pennsylvania,Pittsburgh ,PIT5
+Pennsylvania,Pittston ,AVP6
+Pennsylvania,Sewickley ,DPP1
+South Carolina,West Columbia ,CAE1
+South Carolina,West Columbia ,CAE3
+South Carolina,Spartanburg ,GSP1
+Tennessee,Chattanooga ,CHA1
+Tennessee,Charleston ,CHA2
+Tennessee,Lebanon ,BNA2
+Tennessee,Memphis ,MEM1
+Tennessee,Murfreesboro ,BNA3
+Tennessee,Nashville ,BNA5
+Texas,Austin ,ATX1
+Texas,Austin ,ATX2
+Texas,Coppell ,DFW6
+Texas,Coppell ,FTW2
+Texas,Coppell ,FTW6
+Texas,Dallas ,FTW1
+Texas,Fort Worth,DFW7
+Texas,Fort Worth,FTW3
+Texas,Fort Worth,FTW4
+Texas,Wilmer ,DAL9
+Texas,Humble ,HOU1
+Texas,Schertz ,SAT1
+Texas,Irving ,DFW8
+Texas,Houston ,HOU2
+Texas,Brookshire ,HOU3
+Texas,San Marcos ,SAT2
+Utah,Salt Lake City ,SLC1
+Virginia,Petersburg ,RIC1
+Virginia,Chester ,RIC2
+Virginia,Chester ,RIC3
+Virginia,Clear Brook ,BWI4
+Virginia,Ashland ,RIC5
+Virginia,Ashland ,RIC9
+Washington,Sumner,BFI1
+Washington,Sumner,BFI7
+Washington,DuPont ,BFI3
+Washington,Kent,BFI4
+Washington,Kent,BFI5
+Washington,Kent,BFI6
+Washington,Bellevue ,SEA8
+Washington,Spokane ,GEG1
+Washington,Everett ,DSE4
+Wisconsin,Kenosha ,MKE1
+Wisconsin,Kenosha ,MKE5
+Alberta,Rocky View County ,YYC1
+Alberta,Leduc County ,YEG1
+British Columbia,Annacis Island a part of Delta ,YVR2
+British Columbia,New Westminster ,YVR3
+Ontario,Brampton ,YYZ3
+Ontario,Brampton ,YYZ4
+Ontario,Mississauga ,YYZ1
+Ontario,Milton ,YYZ2
+Ontario,Ottawa ,YOW1
