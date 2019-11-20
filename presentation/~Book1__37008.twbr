@@ -1,0 +1,2642 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20193.19.1017.1259                               -->
+<workbook source-build='2019.3.1 (20193.19.1017.1259)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='allMarketsConsolidatedHere' inline='true' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='allMarketsConsolidatedHere' name='textscan.1vx2bxu16xylth15trbwv1j1www4'>
+            <connection class='textscan' directory='C:/Users/carlo/Desktop/Final Project/finalProjectDataAnalyticsUofT2019/consolidatedData' filename='allMarketsConsolidatedHereVersion2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[allMarketsConsolidatedHere.csv].[quantity]' />
+              <expression op='[allMarketsConsolidatedHereVersion2.csv].[quantity]' />
+            </expression>
+          </clause>
+          <relation connection='textscan.1vx2bxu16xylth15trbwv1j1www4' name='allMarketsConsolidatedHere.csv' table='[allMarketsConsolidatedHere#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+              <column datatype='string' name='vendor' ordinal='0' />
+              <column datatype='date' name='date' ordinal='1' />
+              <column datatype='string' name='order id' ordinal='2' />
+              <column datatype='string' name='country' ordinal='3' />
+              <column datatype='string' name='order city' ordinal='4' />
+              <column datatype='string' name='order state' ordinal='5' />
+              <column datatype='string' name='item' ordinal='6' />
+              <column datatype='integer' name='quantity' ordinal='7' />
+              <column datatype='real' name='revenue' ordinal='8' />
+              <column datatype='real' name='total cost' ordinal='9' />
+              <column datatype='real' name='profit' ordinal='10' />
+              <column datatype='real' name='return on sales' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1vx2bxu16xylth15trbwv1j1www4' name='allMarketsConsolidatedHereVersion2.csv' table='[allMarketsConsolidatedHereVersion2#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='vendor' ordinal='1' />
+              <column datatype='date' name='date' ordinal='2' />
+              <column datatype='string' name='order id' ordinal='3' />
+              <column datatype='string' name='country' ordinal='4' />
+              <column datatype='string' name='order city' ordinal='5' />
+              <column datatype='string' name='order state' ordinal='6' />
+              <column datatype='string' name='product brand' ordinal='7' />
+              <column datatype='string' name='item' ordinal='8' />
+              <column datatype='integer' name='quantity' ordinal='9' />
+              <column datatype='real' name='revenue' ordinal='10' />
+              <column datatype='real' name='total cost' ordinal='11' />
+              <column datatype='real' name='profit' ordinal='12' />
+              <column datatype='real' name='return on sales' ordinal='13' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[F1]' value='[allMarketsConsolidatedHereVersion2.csv].[F1]' />
+          <map key='[country (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[country]' />
+          <map key='[country]' value='[allMarketsConsolidatedHere.csv].[country]' />
+          <map key='[date (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[date]' />
+          <map key='[date]' value='[allMarketsConsolidatedHere.csv].[date]' />
+          <map key='[item (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[item]' />
+          <map key='[item]' value='[allMarketsConsolidatedHere.csv].[item]' />
+          <map key='[order city (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[order city]' />
+          <map key='[order city]' value='[allMarketsConsolidatedHere.csv].[order city]' />
+          <map key='[order id (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[order id]' />
+          <map key='[order id]' value='[allMarketsConsolidatedHere.csv].[order id]' />
+          <map key='[order state (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[order state]' />
+          <map key='[order state]' value='[allMarketsConsolidatedHere.csv].[order state]' />
+          <map key='[product brand]' value='[allMarketsConsolidatedHereVersion2.csv].[product brand]' />
+          <map key='[profit (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[profit]' />
+          <map key='[profit]' value='[allMarketsConsolidatedHere.csv].[profit]' />
+          <map key='[quantity (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[quantity]' />
+          <map key='[quantity]' value='[allMarketsConsolidatedHere.csv].[quantity]' />
+          <map key='[return on sales (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[return on sales]' />
+          <map key='[return on sales]' value='[allMarketsConsolidatedHere.csv].[return on sales]' />
+          <map key='[revenue (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[revenue]' />
+          <map key='[revenue]' value='[allMarketsConsolidatedHere.csv].[revenue]' />
+          <map key='[total cost (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[total cost]' />
+          <map key='[total cost]' value='[allMarketsConsolidatedHere.csv].[total cost]' />
+          <map key='[vendor (allMarketsConsolidatedHereVersion2.csv)]' value='[allMarketsConsolidatedHereVersion2.csv].[vendor]' />
+          <map key='[vendor]' value='[allMarketsConsolidatedHere.csv].[vendor]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vendor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vendor]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>vendor</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>order id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[order id]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>order id</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>order city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[order city]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>order city</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>order state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[order state]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>order state</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>item</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[item]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>item</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quantity]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>quantity</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[revenue]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>revenue</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total cost]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>total cost</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[profit]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>profit</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>return on sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[return on sales]</local-name>
+            <parent-name>[allMarketsConsolidatedHere.csv]</parent-name>
+            <remote-alias>return on sales</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vendor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vendor (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>vendor</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>order id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[order id (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>order id</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>order city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[order city (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>order city</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>order state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[order state (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>order state</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>product brand</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[product brand]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>product brand</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>item</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[item (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>item</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quantity (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>quantity</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[revenue (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>revenue</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total cost (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>total cost</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[profit (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>profit</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>return on sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[return on sales (allMarketsConsolidatedHereVersion2.csv)]</local-name>
+            <parent-name>[allMarketsConsolidatedHereVersion2.csv]</parent-name>
+            <remote-alias>return on sales</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[country (allMarketsConsolidatedHereVersion2.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[item]' role='dimension' type='nominal' />
+      <column datatype='string' name='[order city (allMarketsConsolidatedHereVersion2.csv)]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column aggregation='None' datatype='string' name='[order city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[order id]' role='dimension' type='nominal' />
+      <column datatype='string' name='[order state (allMarketsConsolidatedHereVersion2.csv)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+      <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+      <column-instance column='[date]' derivation='Day-Trunc' name='[tdy:date:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[date]' derivation='Quarter-Trunc' name='[tqr:date:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[date]' derivation='Week-Trunc' name='[twk:date:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (DAY(date),vendor)' hidden='true' name='[Action (DAY(date),vendor)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[tdy:date:ok]' />
+          <groupfilter function='level-members' level='[vendor]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (MONTH(date),vendor)' hidden='true' name='[Action (MONTH(date),vendor)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[tmn:date:ok]' />
+          <groupfilter function='level-members' level='[vendor]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (QUARTER(date),vendor)' hidden='true' name='[Action (QUARTER(date),vendor)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[tqr:date:ok]' />
+          <groupfilter function='level-members' level='[vendor]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (WEEK(date),vendor)' hidden='true' name='[Action (WEEK(date),vendor)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[twk:date:ok]' />
+          <groupfilter function='level-members' level='[vendor]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (country,order city,order state)' hidden='true' name='[Action (country,order city,order state)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[country]' />
+          <groupfilter function='level-members' level='[order city]' />
+          <groupfilter function='level-members' level='[order state]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (country,order state)' hidden='true' name='[Action (country,order state)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[country]' />
+          <groupfilter function='level-members' level='[order state]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (item)' hidden='true' name='[Action (item)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[item]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (item,vendor)' hidden='true' name='[Action (item,vendor)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[item]' />
+          <groupfilter function='level-members' level='[vendor]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (vendor)' hidden='true' name='[Action (vendor)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[vendor]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='country, order state, order city'>
+          <field>[country]</field>
+          <field>[order state]</field>
+          <field>[order city]</field>
+        </drill-path>
+      </drill-paths>
+      <layout dim-ordering='alphabetic' dim-percentage='0.473008' measure-ordering='alphabetic' measure-percentage='0.526992' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:vendor:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;amazon&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;net32&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Market' name='[Action1]'>
+      <activation type='on-select' />
+      <source dashboard='Map' type='sheet' />
+      <link caption='Market' delimiter=',' escape='\' expression='tsl:Map?%5Bfederated.0v3yc5m10behze1ahj6ri0l9l4ws%5D.%5Bvendor%5D~s0=&lt;[vendor]~na&gt;' include-null='true' multi-select='true' url-escape='true' />
+      <command command='tsc:tsl-filter'>
+        <param name='target' value='Map' />
+      </command>
+    </action>
+    <action caption='Filter1' name='[Action2]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='Map' type='sheet'>
+        <exclude-sheet name='Cost for Each Market' />
+        <exclude-sheet name='Overall Profit for Both Markets' />
+        <exclude-sheet name='Return on Sales' />
+      </source>
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Map' />
+      </command>
+    </action>
+    <action caption='Filter2' name='[Action3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='AMAZON' type='sheet' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='AMAZON' />
+      </command>
+    </action>
+    <action caption='Filter3' name='[Action4]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='NET32' type='sheet' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='NET32' />
+      </command>
+    </action>
+    <datasources>
+      <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+    </datasources>
+    <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+      <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+    </datasource-dependencies>
+  </actions>
+  <worksheets>
+    <worksheet name='#of people per month'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>People Ordered in</run>
+            <run>Æ </run>
+            <run bold='true' fontsize='10'>&lt;Page Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[order id]' derivation='CountD' name='[ctd:order id:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='Day' name='[dy:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Month' name='[mn:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[order id]' role='dimension' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[country]' member='&quot;USA&quot;' />
+              <groupfilter function='member' level='[order state]' member='&quot;MT&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]'>
+            <groupfilter function='member' level='[none:vendor:nk]' member='&quot;amazon&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[ctd:order id:qk]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[dy:date:ok]</cols>
+        <pages>
+          <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[mn:date:ok]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{77FE9C20-D0F7-4DDE-85BE-5E640BC2BFBB}' />
+    </worksheet>
+    <worksheet name='#of people per month NET32'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>People Ordered in</run>
+            <run>Æ </run>
+            <run bold='true' fontsize='10'>&lt;Page Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[order id]' derivation='CountD' name='[ctd:order id:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='Day' name='[dy:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Month' name='[mn:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[order id]' role='dimension' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[country]' member='&quot;USA&quot;' />
+              <groupfilter function='member' level='[order state]' member='&quot;UT&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]'>
+            <groupfilter function='member' level='[none:vendor:nk]' member='&quot;net32&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[ctd:order id:qk]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[dy:date:ok]</cols>
+        <pages>
+          <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[mn:date:ok]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{AE05B13C-89D5-4CA2-A2BD-46B6CF1C3015}' />
+    </worksheet>
+    <worksheet name='AMZ'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10' underline='true'>Top 10 Items in Revenue</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[item]' role='dimension' type='nominal' />
+            <column-instance column='[item]' derivation='None' name='[none:item:nk]' pivot='key' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[profit]' role='measure' type='quantitative' />
+            <column datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[profit]' derivation='Sum' name='[sum:profit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Day-Trunc' name='[tdy:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Quarter-Trunc' name='[tqr:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Week-Trunc' name='[twk:date:ok]' pivot='key' type='ordinal' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tdy:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tmn:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tqr:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[twk:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[country]' member='&quot;USA&quot;' />
+              <groupfilter function='member' level='[order state]' member='&quot;MT&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[item]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]'>
+            <groupfilter function='level-members' level='[vendor]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([revenue])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:item:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]'>
+            <groupfilter function='member' level='[none:vendor:nk]' member='&quot;amazon&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]</cols>
+        <pages>
+          <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{22D36263-B917-41D0-95F6-73EC1B3172B6}' />
+    </worksheet>
+    <worksheet name='Bottom 10 Items Revenue'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10' underline='true'>Bottom 10 Items in Revenue</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[item]' role='dimension' type='nominal' />
+            <column-instance column='[item]' derivation='None' name='[none:item:nk]' pivot='key' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[profit]' role='measure' type='quantitative' />
+            <column datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[profit]' derivation='Sum' name='[sum:profit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Day-Trunc' name='[tdy:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Quarter-Trunc' name='[tqr:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Week-Trunc' name='[twk:date:ok]' pivot='key' type='ordinal' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tdy:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tmn:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tqr:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[twk:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[country]' />
+              <groupfilter function='level-members' level='[order state]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[item]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]'>
+            <groupfilter function='level-members' level='[vendor]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]'>
+            <groupfilter count='10' end='bottom' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([revenue])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:item:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]</cols>
+      </table>
+      <simple-id uuid='{8344358B-6595-46FC-8875-FC7A74F9EB2B}' />
+    </worksheet>
+    <worksheet name='Cost for Each Market'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10' underline='true'>Cost per Market</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[item]' role='dimension' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[total cost]' derivation='Sum' name='[sum:total cost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Day-Trunc' name='[tdy:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:ok]' pivot='key' type='ordinal' />
+            <column datatype='real' name='[total cost]' role='measure' type='quantitative' />
+            <column-instance column='[date]' derivation='Quarter-Trunc' name='[tqr:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Week-Trunc' name='[twk:date:ok]' pivot='key' type='ordinal' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tdy:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tmn:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tqr:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[twk:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[country]' />
+              <groupfilter function='level-members' level='[order state]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[item]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]'>
+            <groupfilter function='level-members' level='[vendor]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:total cost:qk]</cols>
+      </table>
+      <simple-id uuid='{B0696A83-BD65-46C8-A942-EA16607675FB}' />
+    </worksheet>
+    <worksheet name='Map of Amazon'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Map of Amazon Revenue</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[order state]' derivation='None' name='[none:order state:nk]' pivot='key' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]'>
+            <groupfilter function='member' level='[none:vendor:nk]' member='&quot;amazon&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Longitude (generated)]' field-type='quantitative' max='38966301.638698578' min='14574459.33009591' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Latitude (generated)]' field-type='quantitative' max='10579980.145069532' min='1092901.9836476524' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:order state:nk]' />
+              <lod column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:country:nk]' />
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' />
+              <geometry column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Latitude (generated)]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{286A7155-579F-4A29-A350-7EDA74EF4247}' />
+    </worksheet>
+    <worksheet name='Map of NET32'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Map of NET32 Revenue</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[order state]' derivation='None' name='[none:order state:nk]' pivot='key' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]'>
+            <groupfilter function='member' level='[none:vendor:nk]' member='&quot;net32&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Longitude (generated)]' field-type='quantitative' max='38966301.638698578' min='14574459.33009591' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Latitude (generated)]' field-type='quantitative' max='10579980.145069532' min='1092901.9836476524' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:order state:nk]' />
+              <lod column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:country:nk]' />
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' />
+              <geometry column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Latitude (generated)]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{B7491DB8-E4C4-4B4C-BBA7-086BCFB6B458}' />
+    </worksheet>
+    <worksheet name='Map of Revenue'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Map of Revenue</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[item]' role='dimension' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[order state]' derivation='None' name='[none:order state:nk]' pivot='key' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Day-Trunc' name='[tdy:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Quarter-Trunc' name='[tqr:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Week-Trunc' name='[twk:date:ok]' pivot='key' type='ordinal' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tdy:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tmn:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tqr:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[twk:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[item]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]'>
+            <groupfilter function='level-members' level='[vendor]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]'>
+            <groupfilter function='level-members' level='[none:vendor:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Longitude (generated)]' field-type='quantitative' max='35548876.512846291' min='18381826.478718661' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Latitude (generated)]' field-type='quantitative' max='10159483.737109277' min='2386696.6777563957' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:order state:nk]' />
+              <lod column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:country:nk]' />
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' />
+              <geometry column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Latitude (generated)]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{17749454-D31C-4884-BF28-94DB0A263F20}' />
+    </worksheet>
+    <worksheet name='Overall Profit for Both Markets'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10' underline='true'>Overall Profit per Market</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[item]' role='dimension' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[profit]' role='measure' type='quantitative' />
+            <column-instance column='[profit]' derivation='Sum' name='[sum:profit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Day-Trunc' name='[tdy:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Quarter-Trunc' name='[tqr:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Week-Trunc' name='[twk:date:ok]' pivot='key' type='ordinal' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tdy:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tmn:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tqr:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[twk:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[country]' />
+              <groupfilter function='level-members' level='[order state]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[item]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]'>
+            <groupfilter function='level-members' level='[vendor]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]</cols>
+      </table>
+      <simple-id uuid='{DE613069-241B-41C5-913C-D250965E0AF4}' />
+    </worksheet>
+    <worksheet name='ROR'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10' underline='true'>Rate of Return </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[item]' role='dimension' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[profit]' role='measure' type='quantitative' />
+            <column-instance column='[profit]' derivation='Sum' name='[sum:profit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Week-Trunc' name='[twk:date:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[country]' />
+              <groupfilter function='level-members' level='[order state]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[item]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]'>
+            <groupfilter function='level-members' level='[vendor]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[twk:date:qk]</cols>
+      </table>
+      <simple-id uuid='{BF63721A-1A72-4F63-BA4C-8A53DE4A5EF8}' />
+    </worksheet>
+    <worksheet name='Return on Sales'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10' underline='true'>Return on Sales</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[item]' role='dimension' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[return on sales]' role='measure' type='quantitative' />
+            <column-instance column='[return on sales]' derivation='Sum' name='[sum:return on sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Day-Trunc' name='[tdy:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Quarter-Trunc' name='[tqr:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Week-Trunc' name='[twk:date:ok]' pivot='key' type='ordinal' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tdy:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tmn:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tqr:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[twk:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[country]' />
+              <groupfilter function='level-members' level='[order state]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[item]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]'>
+            <groupfilter function='level-members' level='[vendor]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' />
+              <size column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:return on sales:qk]' />
+              <text column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:return on sales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F385918A-A400-4B3C-8005-1D96A4D259F4}' />
+    </worksheet>
+    <worksheet name='Sheet 11'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5D9F3EDF-5E47-45C2-98DC-3E36DE22F3D2}' />
+    </worksheet>
+    <worksheet name='Sheet 12'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2CE6C127-D5B6-4F16-B4D3-BDA24B9AFD8B}' />
+    </worksheet>
+    <worksheet name='TOP 10 Items Revenue'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10' underline='true'>Top 10 Items in Revenue</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[item]' role='dimension' type='nominal' />
+            <column-instance column='[item]' derivation='None' name='[none:item:nk]' pivot='key' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[profit]' role='measure' type='quantitative' />
+            <column datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[profit]' derivation='Sum' name='[sum:profit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Day-Trunc' name='[tdy:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Quarter-Trunc' name='[tqr:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Week-Trunc' name='[twk:date:ok]' pivot='key' type='ordinal' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tdy:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tmn:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tqr:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[twk:date:ok]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[country]' />
+              <groupfilter function='level-members' level='[order state]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[item]' />
+              <groupfilter function='level-members' level='[vendor]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]'>
+            <groupfilter function='level-members' level='[vendor]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([revenue])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:item:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (MONTH(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (QUARTER(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (DAY(date),vendor)]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (WEEK(date),vendor)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]</cols>
+      </table>
+      <simple-id uuid='{C13EE4E7-FB98-4719-9F53-497FF7F3852D}' />
+    </worksheet>
+    <worksheet name='TOP 10 NET32'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10' underline='true'>Top 10 Items in Revenue</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='allMarketsConsolidatedHere' name='federated.0v3yc5m10behze1ahj6ri0l9l4ws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v3yc5m10behze1ahj6ri0l9l4ws'>
+            <column aggregation='None' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[item]' role='dimension' type='nominal' />
+            <column-instance column='[item]' derivation='None' name='[none:item:nk]' pivot='key' type='nominal' />
+            <column-instance column='[vendor]' derivation='None' name='[none:vendor:nk]' pivot='key' type='nominal' />
+            <column aggregation='None' datatype='string' name='[order state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[profit]' role='measure' type='quantitative' />
+            <column datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[profit]' derivation='Sum' name='[sum:profit:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[country]' member='&quot;USA&quot;' />
+              <groupfilter function='member' level='[order state]' member='&quot;UT&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([revenue])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:item:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]'>
+            <groupfilter function='member' level='[none:vendor:nk]' member='&quot;net32&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]</column>
+            <column>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]</rows>
+        <cols>[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:profit:qk]</cols>
+      </table>
+      <simple-id uuid='{B5FA29BB-0FEE-45CA-B484-ED82409BEB89}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='AMAZON'>
+      <style>
+        <style-rule element='dash-subtitle'>
+          <format attr='background-color' value='#ffffff' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='54750' id='3' name='Map of Amazon' w='99600' x='300' y='375' />
+        <zone h='11000' id='4' name='Map of Amazon' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' type='color' w='14000' x='600' y='40500' />
+        <zone h='44375' id='5' name='#of people per month' w='47900' x='51400' y='55750' />
+        <zone h='13250' id='6' name='#of people per month' synchronized='1' type='currpage' w='16000' x='83500' y='55375' />
+        <zone h='44375' id='7' name='AMZ' w='42700' x='200' y='55250' />
+        <zone h='5375' id='8' name='AMZ' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' w='14000' x='42300' y='57125' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='9' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='54750' id='3' is-fixed='true' name='Map of Amazon' w='99600' x='300' y='375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='11000' id='4' name='Map of Amazon' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' type='color' w='14000' x='600' y='40500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44375' id='7' is-fixed='true' name='AMZ' w='42700' x='200' y='55250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5375' id='8' name='AMZ' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' w='14000' x='42300' y='57125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44375' id='5' is-fixed='true' name='#of people per month' w='47900' x='51400' y='55750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13250' id='6' name='#of people per month' synchronized='1' type='currpage' w='16000' x='83500' y='55375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{31B8D9BE-3FEA-459A-9E4B-A5EA4B36EBCD}' />
+    </dashboard>
+    <dashboard name='Map'>
+      <style>
+        <style-rule element='dash-subtitle'>
+          <format attr='background-color' value='#ffffff' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone fixed-size='320' h='37625' id='15' is-fixed='true' name='TOP 10 Items Revenue' w='40500' x='59400' y='625'>
+          <layout-cache minwidth='240' type-h='fixed' type-w='scalable' />
+        </zone>
+        <zone h='21500' id='19' name='ROR' w='59900' x='39900' y='78125'>
+          <layout-cache minwidth='178' type-h='fixed' type-w='scalable' />
+        </zone>
+        <zone h='21750' id='13' name='Cost for Each Market' w='38100' x='100' y='78125'>
+          <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+        </zone>
+        <zone h='22500' id='9' name='Overall Profit for Both Markets' w='39600' x='100' y='55125'>
+          <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+        </zone>
+        <zone h='52625' id='3' name='Map of Revenue' w='59200' x='100' y='125'>
+          <layout-cache minwidth='3' type-h='fixed' type-w='scalable' />
+        </zone>
+        <zone h='21500' id='17' name='Return on Sales' w='22300' x='40000' y='53000'>
+          <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='50' type-h='cell' type-w='cell' />
+        </zone>
+        <zone fixed-size='256' h='39625' id='16' is-fixed='true' name='Bottom 10 Items Revenue' w='40600' x='59300' y='38875'>
+          <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+        </zone>
+        <zone h='8875' id='8' name='Map of Revenue' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' single-line='true' type='color' w='14000' x='1400' y='41750' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='27' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='26' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='52625' id='3' is-fixed='true' name='Map of Revenue' w='59200' x='100' y='125'>
+                  <layout-cache minwidth='3' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8875' id='8' name='Map of Revenue' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' single-line='true' type='color' w='14000' x='1400' y='41750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37625' id='15' is-fixed='true' name='TOP 10 Items Revenue' w='40500' x='59400' y='625'>
+                  <layout-cache minwidth='240' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39625' id='16' is-fixed='true' name='Bottom 10 Items Revenue' w='40600' x='59300' y='38875'>
+                  <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='172' h='21500' id='17' is-fixed='true' name='Return on Sales' w='22300' x='40000' y='53000'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='50' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='180' h='22500' id='9' is-fixed='true' name='Overall Profit for Both Markets' w='39600' x='100' y='55125'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='174' h='21750' id='13' is-fixed='true' name='Cost for Each Market' w='38100' x='100' y='78125'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='172' h='21500' id='19' is-fixed='true' name='ROR' w='59900' x='39900' y='78125'>
+                  <layout-cache minwidth='178' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{297B4C15-7896-46D1-8A77-392E759A1D8E}' />
+    </dashboard>
+    <dashboard name='NET32'>
+      <style>
+        <style-rule element='dash-subtitle'>
+          <format attr='background-color' value='#ffffff' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='51250' id='3' name='Map of NET32' w='99800' x='0' y='250' />
+        <zone h='11000' id='4' name='Map of NET32' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' type='color' w='14000' x='400' y='40375' />
+        <zone h='48125' id='5' name='#of people per month NET32' w='49300' x='50400' y='51625' />
+        <zone h='13250' id='6' name='#of people per month NET32' synchronized='1' type='currpage' w='16000' x='83400' y='53000' />
+        <zone h='47875' id='7' name='TOP 10 NET32' w='49400' x='0' y='51875' />
+        <zone h='5375' id='8' name='TOP 10 NET32' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' w='14000' x='35400' y='52500' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='9' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='51250' id='3' is-fixed='true' name='Map of NET32' w='99800' x='0' y='250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='11000' id='4' name='Map of NET32' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' type='color' w='14000' x='400' y='40375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48125' id='5' is-fixed='true' name='#of people per month NET32' w='49300' x='50400' y='51625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47875' id='7' is-fixed='true' name='TOP 10 NET32' w='49400' x='0' y='51875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5375' id='8' name='TOP 10 NET32' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' w='14000' x='35400' y='52500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13250' id='6' name='#of people per month NET32' synchronized='1' type='currpage' w='16000' x='83400' y='53000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F7337947-EA38-472D-B5D6-DB8C2A6986F3}' />
+    </dashboard>
+    <dashboard name='Presentation' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>TITLE</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type='layout-flow' w='98426' x='787' y='830'>
+            <zone h='4357' id='3' type='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type='flipboard-nav' w='98426' x='787' y='5187' />
+            <zone h='83506' id='5' paired-zone-id='4' removable='false' type='flipboard' w='98426' x='787' y='15664'>
+              <flipboard active-id='4' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Introduction' captured-sheet='' id='2' />
+                  <story-point caption='Overview' captured-sheet='Map' id='1' />
+                  <story-point caption='Amazon' captured-sheet='AMAZON' id='3'>
+                    <capturedDeltas>
+                      <worksheet name='#of people per month'>
+                        <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+                          <groupfilter function='crossjoin' user:ui-action-filter='[Action3]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[country]' />
+                            <groupfilter function='level-members' level='[order state]' />
+                          </groupfilter>
+                        </filter>
+                      </worksheet>
+                      <worksheet name='AMZ'>
+                        <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+                          <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[country]' />
+                            <groupfilter function='level-members' level='[order state]' />
+                          </groupfilter>
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Map of Amazon'>
+                        <selection-collection />
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='NET32' captured-sheet='NET32' id='4'>
+                    <capturedDeltas>
+                      <worksheet name='#of people per month NET32'>
+                        <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+                          <groupfilter function='crossjoin' user:ui-action-filter='[Action4]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[country]' />
+                            <groupfilter function='level-members' level='[order state]' />
+                          </groupfilter>
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Map of NET32'>
+                        <selection-collection />
+                      </worksheet>
+                      <worksheet name='TOP 10 NET32'>
+                        <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
+                          <groupfilter function='crossjoin' user:ui-action-filter='[Action4]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[country]' />
+                            <groupfilter function='level-members' level='[order state]' />
+                          </groupfilter>
+                        </filter>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{8A9E68BD-6263-4434-AD8A-8E2388529FE0}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='dashboard' name='Presentation'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{E3EDB42D-C141-41E3-86DD-61DB5BC5662B}' />
+    </window>
+    <window class='dashboard' name='Map'>
+      <viewpoints>
+        <viewpoint name='Bottom 10 Items Revenue' />
+        <viewpoint name='Cost for Each Market' />
+        <viewpoint name='Map of Revenue'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Overall Profit for Both Markets' />
+        <viewpoint name='ROR'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Return on Sales'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='TOP 10 Items Revenue' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{891310A8-EBAA-46E8-A07F-F2AF5A0D72B9}' />
+    </window>
+    <window class='worksheet' name='Map of Revenue'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='37'>
+            <card type='columns' />
+          </strip>
+          <strip size='37'>
+            <card type='rows' />
+          </strip>
+          <strip size='37'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{190EB6EE-A1DE-4B03-8A9D-C34F5F631CFC}' />
+    </window>
+    <window class='worksheet' name='Overall Profit for Both Markets'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6BB71585-389A-4087-85AE-68C188724380}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Cost for Each Market'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C28927AA-1CDC-4EA3-8674-D400C94D55DF}' />
+    </window>
+    <window class='worksheet' name='Return on Sales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:return on sales:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{966013AE-14C1-43F7-AFE8-788E2301B026}' />
+    </window>
+    <window class='worksheet' name='TOP 10 Items Revenue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F667ED31-682B-4737-9427-3D56AD0A23C0}' />
+    </window>
+    <window class='worksheet' name='Bottom 10 Items Revenue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9D394564-AFB9-4067-AD83-F4972E4BC656}' />
+    </window>
+    <window class='worksheet' name='ROR'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{53BA6832-39C5-4046-BA7A-C25C2D679ABE}' />
+    </window>
+    <window class='dashboard' name='AMAZON'>
+      <viewpoints>
+        <viewpoint name='#of people per month'>
+          <current-page>
+            <multibucket>
+              <bucket>6</bucket>
+            </multibucket>
+          </current-page>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='AMZ' />
+        <viewpoint name='Map of Amazon'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{5D5C0A86-7F76-4502-9B47-1A57AB547347}' />
+    </window>
+    <window class='worksheet' name='Map of Amazon'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{44C5897F-F0A7-46F6-B374-815265458F8E}' />
+    </window>
+    <window class='worksheet' name='#of people per month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>1</bucket>
+          </multibucket>
+        </current-page>
+      </viewpoint>
+      <simple-id uuid='{BD738014-6CCE-46D4-A767-C43AE1F15C67}' />
+    </window>
+    <window class='worksheet' name='AMZ'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' />
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D762F18A-8DE5-4FD8-B6BC-804D6F79E33E}' />
+    </window>
+    <window class='dashboard' name='NET32'>
+      <viewpoints>
+        <viewpoint name='#of people per month NET32'>
+          <current-page>
+            <multibucket>
+              <bucket>3</bucket>
+            </multibucket>
+          </current-page>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Map of NET32'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='TOP 10 NET32' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{35176B16-B97A-4D1E-8993-9EE91DE08487}' />
+    </window>
+    <window class='worksheet' name='Map of NET32'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{06FF9DB8-8545-4A68-931B-3451631CB87E}' />
+    </window>
+    <window class='worksheet' name='#of people per month NET32'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>%null%</bucket>
+          </multibucket>
+        </current-page>
+      </viewpoint>
+      <simple-id uuid='{012FD737-A92F-4A9E-845D-6F854FE36BFC}' />
+    </window>
+    <window class='worksheet' name='TOP 10 NET32'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EE3D5877-C6A7-4545-8EA3-B268A82517FE}' />
+    </window>
+    <window class='worksheet' name='Sheet 11'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A9AE2FB7-B833-4BA2-A82E-8E0EF4F03FF6}' />
+    </window>
+    <window class='worksheet' name='Sheet 12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B429BA97-53C0-4E5A-978B-11CB44204B8C}' />
+    </window>
+  </windows>
+</workbook>

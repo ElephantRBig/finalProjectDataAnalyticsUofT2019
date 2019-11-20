@@ -1,0 +1,10 @@
+'MOL', 'MCR', 'SOT', 'CON', 'WEL', 'HOL', 'TOR', 'KEL', 'PRK',
+       'OMR', 'VEC', 'MDL', 'BEU', 'DER', 'BRO', 'S&N', 'LUX', 'MOP',
+       'BSN', 'KER', 'KRO', 'KUR', 'DEN', 'KUL', '3MD', 'BEA', 'COV',
+       'KAV', 'GCD', 'CWH'
+
+'Molynlycke', 'Microsoft-Xbox', 'Sothys', 'Convatec','Welch Allyn',
+'Hollister','Torbot Group','Kelo-cote','Spectra','Omron','Xhekpon','Medline',
+'Beutlich','Derma Sciences','Hairfinity','Smith & Nephew,'Luxe Bidet Neo',
+'Mophie Juice','BSN Medical','KERR','Kromopan','Kuraray','Dentsply',
+'Kulzer','3M ESPE','Beaver','Covidien','Kavo','GC','Coltene Whaledent'
