@@ -308,7 +308,7 @@
           <field>[order city]</field>
         </drill-path>
       </drill-paths>
-      <layout dim-ordering='alphabetic' dim-percentage='0.441501' measure-ordering='alphabetic' measure-percentage='0.558499' show-structure='false' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.48072' measure-ordering='alphabetic' measure-percentage='0.51928' show-structure='false' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[none:vendor:nk]' type='palette'>
@@ -401,9 +401,9 @@
             <column datatype='string' name='[vendor]' role='dimension' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action3]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[country]' member='&quot;USA&quot;' />
-              <groupfilter function='member' level='[order state]' member='&quot;MT&quot;' />
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[country]' />
+              <groupfilter function='level-members' level='[order state]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]'>
@@ -461,7 +461,7 @@
           <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
             <groupfilter function='crossjoin' user:ui-action-filter='[Action4]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
               <groupfilter function='member' level='[country]' member='&quot;USA&quot;' />
-              <groupfilter function='member' level='[order state]' member='&quot;UT&quot;' />
+              <groupfilter function='member' level='[order state]' member='&quot;NV&quot;' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:vendor:nk]'>
@@ -544,9 +544,9 @@
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[country]' member='&quot;USA&quot;' />
-              <groupfilter function='member' level='[order state]' member='&quot;MT&quot;' />
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[country]' />
+              <groupfilter function='level-members' level='[order state]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (item,vendor)]'>
@@ -1021,10 +1021,6 @@
           <aggregation value='true' />
         </view>
         <style>
-          <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Longitude (generated)]' field-type='quantitative' max='35548876.512846291' min='18381826.478718661' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Latitude (generated)]' field-type='quantitative' max='10159483.737109277' min='2386696.6777563957' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-          </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' field='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' palette='green_10_0' type='interpolated' />
           </style-rule>
@@ -1491,7 +1487,7 @@
           <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[Action (country,order state)]'>
             <groupfilter function='crossjoin' user:ui-action-filter='[Action4]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
               <groupfilter function='member' level='[country]' member='&quot;USA&quot;' />
-              <groupfilter function='member' level='[order state]' member='&quot;UT&quot;' />
+              <groupfilter function='member' level='[order state]' member='&quot;NV&quot;' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[none:item:nk]'>
@@ -1653,9 +1649,9 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='27' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='26' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
-                <zone fixed-size='280' h='52625' id='3' is-fixed='true' name='Map of Revenue' w='59200' x='100' y='125'>
+            <zone h='100000' id='30' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99058' id='31' param='vert' type='layout-flow' w='95734' x='2133' y='471'>
+                <zone fixed-size='280' h='16942' id='3' is-fixed='true' name='Map of Revenue' w='95734' x='2133' y='471'>
                   <layout-cache minwidth='3' type-h='fixed' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1665,7 +1661,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='8875' id='8' name='Map of Revenue' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' single-line='true' type='color' w='14000' x='1400' y='41750'>
+                <zone h='3295' id='8' name='Map of Revenue' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' single-line='true' type='color' w='95734' x='2133' y='17413'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1674,7 +1670,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='37625' id='15' is-fixed='true' name='TOP 10 Items Revenue' w='40500' x='59400' y='625'>
+                <zone fixed-size='280' h='16942' id='15' is-fixed='true' name='TOP 10 Items Revenue' w='95734' x='2133' y='20708'>
                   <layout-cache minwidth='240' type-h='fixed' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1684,7 +1680,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='39625' id='16' is-fixed='true' name='Bottom 10 Items Revenue' w='40600' x='59300' y='38875'>
+                <zone fixed-size='280' h='16942' id='16' is-fixed='true' name='Bottom 10 Items Revenue' w='95734' x='2133' y='37650'>
                   <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1694,7 +1690,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='172' h='21500' id='17' is-fixed='true' name='Return on Sales' w='22300' x='40000' y='53000'>
+                <zone fixed-size='172' h='10589' id='17' is-fixed='true' name='Return on Sales' w='95734' x='2133' y='54592'>
                   <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='50' type-h='cell' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1704,7 +1700,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='180' h='22500' id='9' is-fixed='true' name='Overall Profit for Both Markets' w='39600' x='100' y='55125'>
+                <zone fixed-size='180' h='11059' id='9' is-fixed='true' name='Overall Profit for Both Markets' w='95734' x='2133' y='65181'>
                   <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1714,7 +1710,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='174' h='21750' id='13' is-fixed='true' name='Cost for Each Market' w='38100' x='100' y='78125'>
+                <zone fixed-size='174' h='10706' id='13' is-fixed='true' name='Cost for Each Market' w='95734' x='2133' y='76240'>
                   <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1724,7 +1720,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='172' h='21500' id='19' is-fixed='true' name='ROR' w='59900' x='39900' y='78125'>
+                <zone fixed-size='172' h='10589' id='19' is-fixed='true' name='ROR' w='95734' x='2133' y='86946'>
                   <layout-cache minwidth='178' type-h='fixed' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1755,7 +1751,7 @@
       </style>
       <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
       <zones>
-        <zone h='51250' id='3' name='Map of NET32' w='99800' x='0' y='250' />
+        <zone h='51250' id='3' name='Map of NET32' w='99800' x='400' y='250' />
         <zone h='11000' id='4' name='Map of NET32' pane-specification-id='0' param='[federated.0v3yc5m10behze1ahj6ri0l9l4ws].[sum:revenue:qk]' type='color' w='14000' x='400' y='40375' />
         <zone h='48125' id='5' name='#of people per month NET32' w='49300' x='50400' y='51625' />
         <zone h='13250' id='6' name='#of people per month NET32' synchronized='1' type='currpage' w='16000' x='83400' y='53000' />
@@ -1922,7 +1918,7 @@
       <active id='-1' />
       <simple-id uuid='{E3EDB42D-C141-41E3-86DD-61DB5BC5662B}' />
     </window>
-    <window class='dashboard' maximized='true' name='Map'>
+    <window class='dashboard' name='Map'>
       <viewpoints>
         <viewpoint name='Bottom 10 Items Revenue' />
         <viewpoint name='Cost for Each Market' />
@@ -2138,7 +2134,7 @@
       </cards>
       <simple-id uuid='{53BA6832-39C5-4046-BA7A-C25C2D679ABE}' />
     </window>
-    <window class='dashboard' name='AMAZON'>
+    <window class='dashboard' maximized='true' name='AMAZON'>
       <viewpoints>
         <viewpoint name='#of people per month'>
           <current-page>
@@ -2166,13 +2162,13 @@
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='37'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='37'>
             <card type='rows' />
           </strip>
-          <strip size='38'>
+          <strip size='37'>
             <card type='title' />
           </strip>
         </edge>
@@ -2200,7 +2196,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='31'>
+          <strip size='2147483647'>
             <card type='title' />
           </strip>
         </edge>
@@ -2235,7 +2231,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='31'>
+          <strip size='2147483647'>
             <card type='title' />
           </strip>
         </edge>
@@ -2263,7 +2259,7 @@
         </viewpoint>
         <viewpoint name='TOP 10 NET32' />
       </viewpoints>
-      <active id='-1' />
+      <active id='3' />
       <simple-id uuid='{35176B16-B97A-4D1E-8993-9EE91DE08487}' />
     </window>
     <window class='worksheet' name='Map of NET32'>
