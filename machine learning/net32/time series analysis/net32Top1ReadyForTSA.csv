@@ -1,4 +1,4 @@
-date,Profit_3MD-712-036,sumOfProfitNet32,Avg. return on sales_3MD-712-036,7dayRosAverage,7dayRosAverage*100,Distinct count of order id_3MD-712-036,quantity_3MD-712-036,sumOfQuantity,7DaySumOfQTY,sumOfProfitbySumOfQty,profitPerQuantitySold_3MD-712-036,profitPerOrderMade_3MD-712-036,amazonTop1ItemAvg.weeklyReturn,amazonTop1ItemAvg.weeklyReturn*100,Prediction_3MD-712-036
+date,Profit_3MD-712-036,sumOfProfitNet32,Avg. return on sales_3MD-712-036,7dayRosAverage,7dayRosAverage*1000,Distinct count of order id_3MD-712-036,quantity_3MD-712-036,sumOfQuantity,7DaySumOfQTY,sumOfProfitbySumOfQty,profitPerQuantitySold_3MD-712-036,profitPerOrderMade_3MD-712-036,amazonTop1ItemAvg.weeklyReturn,amazonTop1ItemAvg.weeklyReturn*100,Prediction_3MD-712-036
 2019-01-01,0,0,0,,,0,0,,,,0,0,,,
 2019-01-02,0,0,0,,,0,0,,,,0,0,,,
 2019-01-03,0,0,0,,,0,0,,,,0,0,,,
