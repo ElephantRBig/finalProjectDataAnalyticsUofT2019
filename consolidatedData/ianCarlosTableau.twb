@@ -2064,8 +2064,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='31' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='32' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='33' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='34' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='99' forceUpdate='true' h='13375' id='19' is-fixed='true' param='C:/Users/carlo/Documents/My Tableau Repository/Shapes/finalProjectPictures/amazon-company-official-logo.png' type='bitmap' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2214,8 +2214,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='26' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='27' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='28' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='29' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='97' h='13125' id='16' is-fixed='true' is-scaled='1' param='C:/Users/carlo/Documents/My Tableau Repository/Shapes/finalProjectPictures/Net32PRLogo.jpg' type='bitmap' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2407,8 +2407,8 @@
           </layout-options>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='42' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='43' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='44' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='45' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='5000' id='20' type='title' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2765,7 +2765,7 @@
       </viewpoint>
       <simple-id uuid='{5D9E4D0C-5A58-4236-89A8-CF4CA9D88180}' />
     </window>
-    <window class='worksheet' name='Sheet 22'>
+    <window class='worksheet' maximized='true' name='Sheet 22'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2796,7 +2796,7 @@
       </viewpoint>
       <simple-id uuid='{1E6A76AA-F320-4534-919A-A61287B7BD65}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 22 (2)'>
+    <window class='worksheet' name='Sheet 22 (2)'>
       <cards>
         <edge name='left'>
           <strip size='160'>
