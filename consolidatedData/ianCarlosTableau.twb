@@ -2333,7 +2333,317 @@
       </table>
       <simple-id uuid='{99C7D589-539D-4100-9A82-157D250BD9EE}' />
     </worksheet>
+<<<<<<< HEAD
     <worksheet name='overallColorScaleProfitableState'>
+=======
+  </worksheets>
+  <dashboards>
+    <dashboard name='Amazon Dash'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#00000000' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='22' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='12' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='10' type='layout-basic' w='98400' x='800' y='1000'>
+                <zone h='39937' id='7' name='Top 10 Profitable Items on Amazon' w='49200' x='50000' y='25000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='36500' id='8' name='Top 10 Profitable states for Amazon' w='49200' x='800' y='25000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='37500' id='9' name='Amazon Profitability Map' w='49200' x='800' y='61500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='13375' id='19' param='C:/Users/carlo/Documents/My Tableau Repository/Shapes/finalProjectPictures/amazon-company-official-logo.png' type='bitmap' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='10625' id='3' name='Overall Amazon Sales: At a Glance' show-title='false' w='98400' x='800' y='14375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='34063' id='20' name='Bottom 10 Profitable Items on Amazon' w='49200' x='50000' y='64937'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='7000' id='13' name='Amazon Profitability Map' pane-specification-id='0' param='[federated.0q21w6z0wwkjzz1d47s460av0jvu].[sum:profit:qk]' type='color' w='14000' x='6300' y='84000' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='33' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='34' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='99' forceUpdate='true' h='13375' id='19' is-fixed='true' param='C:/Users/carlo/Documents/My Tableau Repository/Shapes/finalProjectPictures/amazon-company-official-logo.png' type='bitmap' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='77' h='10625' id='3' is-fixed='true' name='Overall Amazon Sales: At a Glance' show-title='false' w='98400' x='800' y='14375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36500' id='8' is-fixed='true' name='Top 10 Profitable states for Amazon' w='49200' x='800' y='25000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39937' id='7' is-fixed='true' name='Top 10 Profitable Items on Amazon' w='49200' x='50000' y='25000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37500' id='9' is-fixed='true' name='Amazon Profitability Map' w='49200' x='800' y='61500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7000' id='13' name='Amazon Profitability Map' pane-specification-id='0' param='[federated.0q21w6z0wwkjzz1d47s460av0jvu].[sum:profit:qk]' type='color' w='14000' x='6300' y='84000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='265' h='34063' id='20' is-fixed='true' name='Bottom 10 Profitable Items on Amazon' w='49200' x='50000' y='64937'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EECEB61C-97C6-48C1-843B-36EACD886819}' />
+    </dashboard>
+    <dashboard name='Net 32 At A Glance'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='71125' id='13' param='horz' type='layout-flow' w='98400' x='800' y='27875'>
+            <zone h='71125' id='8' param='horz' type='layout-flow' w='98400' x='800' y='27875'>
+              <zone h='71125' id='6' type='layout-basic' w='98400' x='800' y='27875'>
+                <zone h='43125' id='5' name='net 32 profitability map' w='49200' x='800' y='55875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='35563' id='10' name='Net 32 top 10 profitable items ' w='49200' x='50000' y='27875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='28000' id='11' name='net 32 top profitable states' w='49200' x='800' y='27875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='35562' id='17' name='Net 32 bottom 10 profitable items' w='49200' x='50000' y='63438'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='13750' id='3' name='Net32 at a glance ' show-title='false' w='98400' x='800' y='14125'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='13125' id='16' is-scaled='1' param='C:/Users/carlo/Documents/My Tableau Repository/Shapes/finalProjectPictures/Net32PRLogo.jpg' type='bitmap' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='8750' id='9' name='net 32 profitability map' pane-specification-id='0' param='[federated.0q21w6z0wwkjzz1d47s460av0jvu].[sum:profit:qk]' type='color' w='14000' x='8700' y='83000' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='28' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='29' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='97' h='13125' id='16' is-fixed='true' is-scaled='1' param='C:/Users/carlo/Documents/My Tableau Repository/Shapes/finalProjectPictures/Net32PRLogo.jpg' type='bitmap' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='102' h='13750' id='3' is-fixed='true' name='Net32 at a glance ' show-title='false' w='98400' x='800' y='14125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='216' h='28000' id='11' is-fixed='true' name='net 32 top profitable states' w='49200' x='800' y='27875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='277' h='35563' id='10' is-fixed='true' name='Net 32 top 10 profitable items ' w='49200' x='50000' y='27875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43125' id='5' is-fixed='true' name='net 32 profitability map' w='49200' x='800' y='55875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8750' id='9' name='net 32 profitability map' pane-specification-id='0' param='[federated.0q21w6z0wwkjzz1d47s460av0jvu].[sum:profit:qk]' type='color' w='14000' x='8700' y='83000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='276' h='35562' id='17' is-fixed='true' name='Net 32 bottom 10 profitable items' w='49200' x='50000' y='63438'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EB55CDC3-2342-43A0-BA29-3B7B02420EC0}' />
+    </dashboard>
+    <dashboard name='OverallView'>
+>>>>>>> 21577526e46a9edf71ca6ad85b0b6fd0a41b2fcc
       <layout-options>
         <title>
           <formatted-text>
@@ -2342,6 +2652,7 @@
           </formatted-text>
         </title>
       </layout-options>
+<<<<<<< HEAD
       <table>
         <view>
           <datasources>
@@ -3855,13 +4166,18 @@
           </formatted-text>
         </title>
       </layout-options>
+=======
+>>>>>>> 21577526e46a9edf71ca6ad85b0b6fd0a41b2fcc
       <style>
         <style-rule element='table'>
           <format attr='background-color' value='#ffffff' />
         </style-rule>
+<<<<<<< HEAD
         <style-rule element='dash-subtitle'>
           <format attr='background-color' value='#ecedf0' />
         </style-rule>
+=======
+>>>>>>> 21577526e46a9edf71ca6ad85b0b6fd0a41b2fcc
       </style>
       <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
       <zones>
@@ -3959,14 +4275,23 @@
           <layout-options>
             <title>
               <formatted-text>
+<<<<<<< HEAD
                 <run bold='true'>Overall Sales: At A Glance </run>
+=======
+                <run fontalignment='1'>Overall Sales: At A Glance </run>
+>>>>>>> 21577526e46a9edf71ca6ad85b0b6fd0a41b2fcc
               </formatted-text>
             </title>
           </layout-options>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
+<<<<<<< HEAD
             <zone h='100000' id='55' type='layout-basic' w='100000' x='0' y='0'>
               <zone h='98000' id='54' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+=======
+            <zone h='100000' id='44' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='45' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+>>>>>>> 21577526e46a9edf71ca6ad85b0b6fd0a41b2fcc
                 <zone h='5000' id='20' type='title' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4809,7 +5134,11 @@
       </viewpoint>
       <simple-id uuid='{2130C321-CF3D-4233-B52F-3A4A168099C8}' />
     </window>
+<<<<<<< HEAD
     <window class='worksheet' hidden='true' name='Net 32 bottom 10 profitable items'>
+=======
+    <window class='worksheet' maximized='true' name='Sheet 22'>
+>>>>>>> 21577526e46a9edf71ca6ad85b0b6fd0a41b2fcc
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4839,7 +5168,11 @@
       </viewpoint>
       <simple-id uuid='{F02266CC-BFC5-40C5-B6BB-CE9ABE7E6DA7}' />
     </window>
+<<<<<<< HEAD
     <window class='worksheet' hidden='true' name='Net 32 top 10 profitable items '>
+=======
+    <window class='worksheet' name='Sheet 22 (2)'>
+>>>>>>> 21577526e46a9edf71ca6ad85b0b6fd0a41b2fcc
       <cards>
         <edge name='left'>
           <strip size='160'>
