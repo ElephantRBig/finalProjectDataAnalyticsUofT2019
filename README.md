@@ -1,4 +1,4 @@
-# finalProjectDataAnalyticsUofT2019
+# Price Comparison Between Online Markets
 
 The point of this repo is to hold all of mine and Ian's data so we can conduct a final project.
 
